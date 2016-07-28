@@ -1,0 +1,396 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单构建器</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
+	
+	<link rel="stylesheet" type="text/css" href="../webix/webix.css">
+	<link href="../enjoyhint/enjoyhint.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script src="../enjoyhint/enjoyhint.min.js"></script>
+	<script type="text/javascript" src="../webix/webix.js"></script>
+	<style type="text/css">
+		.formselected{
+			background: #FFA;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+
+	var last_ui = [];
+	var columns = 1;
+	function generate_form_fields(){
+		var names = $$("fields").getValue();
+		if (names == "") return webix.message("首先得输入控件名称列");
+		var names = names.split(/[\n\,]/g);
+
+		var position 	= $$("position").getValue();
+		var width 		= $$("width").getValue();
+		
+		var firstRowLabel = $$("firstRowLabel").getValue() == 1 ? true:false;
+		
+		var elements = [];
+		for (var i = 0; i < names.length; i++) {
+			//var nextname = names[i].replace(/[^a-z0-9A-Z]/g,"");
+			var nextname = names[i];
+			if (nextname){
+				var idName = nextname;
+				var labelName = nextname;
+				var nameArray = nextname.split(":");
+				if(nameArray !=null && nameArray.length > 1){
+					labelName = nameArray[1];
+					idName    = nameArray[0];
+				}
+				var next = null;
+				if(width > 0 || firstRowLabel){
+					next = reuse_ui(idName) || { view:"text", id:idName, name:idName, label:labelName};
+			    }else{
+			    	next = reuse_ui(idName) || { view:"text", id:idName, name:idName};
+			    }
+				delete next.labelAlign;
+				delete next.labelPosition;
+				delete next.labelWidth;
+
+				if (position == "Top")
+					next.labelPosition = "top";
+				else{
+					if(width > 0){
+						next.labelWidth = width;
+					}
+					if (position == "Right")
+						next.labelAlign = "right";
+				}
+
+				elements.push(next);
+			}
+		}
+
+		last_ui = elements;
+		refresh_preview();
+
+		selected = null;
+		$$("label").show();
+	}
+	
+	function reset(){
+		//清空
+		last_ui = [];
+		$$("code_preview").setValue("");
+		webix.ui([{}], $$("form_preview"));
+	}
+
+	function reuse_ui(name){
+		for (var i = 0; i < last_ui.length; i++) {
+			if (last_ui[i].name == name) return webix.copy(last_ui[i]);
+		}
+	}
+
+	function refresh_preview(){
+		var codeWithForm = $$("codeWithForm").getValue();
+		var firstRowLabel = $$("firstRowLabel").getValue() == 1 ? true:false;
+		var selected_index = selected ? selected.config.id : false;
+
+		var ui = last_ui;
+		var btns = { margin:5, cols:[
+		                             { id:"btnSubmit", view:"button", value:"提交" , type:"form" },
+		                             { id:"btnCancel", view:"button", value:"取消"}
+		                         ]};
+		//字段数目，小于列数（一行），采用row解决。
+		var uiNum = last_ui.length;
+		if(uiNum <= columns){
+			//ui = {rows:[{cols:last_ui}]};
+			ui = {cols:last_ui};
+		}else{
+			if(columns > 1){
+				//总行数
+				var rowNum  = Math.ceil(uiNum/columns);
+				//循环将所有控件撒到所有列里，按照左右下左右的顺序撒
+				ui = {margin:10, rows:[]};
+				//创建行
+				for(var rowIndex = 0; rowIndex<rowNum; rowIndex++){
+					ui.rows = ui.rows.concat({cols:[]});
+				}
+				var uiIndex = 0;
+				while(uiIndex < uiNum){
+					var uiItem = last_ui[uiIndex];
+					if(firstRowLabel){
+						if(uiIndex < columns){//首航
+							delete uiItem.id;
+							delete uiItem.name;
+							delete uiItem.view;
+							delete uiItem.labelWidth;
+							uiItem.labelWidth = 100;
+							uiItem.view = "label";
+						}else{
+							delete uiItem.label;
+							delete uiItem.labelWidth;
+							uiItem.id  = uiItem.name;
+						}
+					}
+					var rowIndex = Math.floor(uiIndex/columns);
+					ui.rows[rowIndex].cols = ui.rows[rowIndex].cols.concat(uiItem);
+					uiIndex++;
+				}
+			}else{
+				ui = {rows:last_ui};
+			}
+		}
+		
+		var elements = null;
+		if(1 == codeWithForm){
+			elements = [ui, btns];
+		}else{
+			elements = [ui];
+		}
+		for (var i=0; i<last_ui.length; i++)
+			last_ui[i].id = last_ui[i].name;
+		
+		if(1 == codeWithForm){
+			$$("code_preview").setValue(JSON.stringify({ view:"form", elements:elements }, undefined, 2));
+		}else{
+			$$("code_preview").setValue(JSON.stringify(ui, undefined, 2));
+		}
+		
+		for (var i=0; i<last_ui.length; i++)
+			last_ui[i].id = i+1;
+
+		webix.ui([{}], $$("form_preview"));
+		webix.ui(webix.copy(elements), $$("form_preview"));
+			
+		if (selected_index !== false && selected_index <= last_ui.length)
+			select_form_field($$(selected_index));
+		else 
+			selected = null;
+		
+	}
+	
+	function select_form_field(view, mode){
+		if (selected != view){
+
+			if (selected && selected.$view)
+				webix.html.removeCss(selected.$view, "formselected");
+
+			$$("details").show();
+			$$("details").setValues(last_ui[view.config.id-1]);
+			selected = view;
+			webix.html.addCss(selected.$view, "formselected");
+
+		}
+
+		if (mode)
+			$$("details").edit(mode);
+	}
+	function is_form_field(view){
+		return (
+			view && !view.config.ignore &&
+			view.getFormView &&
+			view.getFormView() &&
+			view.getFormView().config.id == "form_preview"
+		);
+	}
+
+	webix.ui({
+		cols:[
+			{ type:"space", rows:[
+				{ view:"tabview", id:"toptab", tabbar:{ optionWidth: 150 }, multiview:{ fitBiggest:true }, cells:[
+					{ header:"预览界面", view:"form", id:"form_preview", elements:[
+					
+					]},
+					{ header:"生成代码", view:"textarea", id:"code_preview" }
+				]}
+			]},
+			{ type:"space", width:340, rows:[
+				{ view:"toolbar", elements:[
+					{ view:"label", template:"表单配置"},
+					{ view:"icon", icon:"question-circle", click:function(){
+						help();
+					}}
+				]},
+				{ type:"clean", rows:[
+					{ view:"textarea",  maxHeight:400, id:"fields", placeholder:"输入字段名，每行一个" },
+					{ cols:[{ view:"segmented", labelWidth:120, id:"columns_small", label:"布局列数", options:["1","2"], value:"1"},{view:"richselect",id:"columns_big",width:80, value:"", options:["","3", "4", "5","6", "7", "8","9", "10", "11","12"]}]},
+					{ view:"segmented", labelWidth:120, id:"position", label:"标签位置", options:["Top","Left","Right"], value:"Left"},
+					{ cols:[{ view:"text", labelWidth:60, width:150,id:"width", label: "标宽", value:100 },{ view:"checkbox", id:"codeWithForm", labelWidth:50,label:"含钮", value:1} ,{ view:"checkbox", id:"firstRowLabel", labelWidth:50,label:"首字", value:0}]},
+					{ cols:[{ view:"button", value:"生成", id:"generate_button", type:"form", click:generate_form_fields },{ view:"button", value:"清除", id:"reset_button", type:"form", width:60, click:reset }]}
+				]},
+				{
+					fitBiggest:true, animate:false, cells:[
+						{ view:"label", id:"label", template:" 选中一个输入控件来编辑其属性"},
+						{ view:"property", autoheight:true, id:"details", elements:[
+					       { label:"控件", type:"label"}, 
+					       { label:"- 类型", type:"richselect", options:["text","button","select","richselect","datepicker","colorpicker","radio","checkbox","segmented", "textarea", "spacer", "label"], id:"view"},
+					       { label:"- 值", type:"text", id:"value"},
+					       { label:"- 提示信息", type:"text", id:"placeholder"},
+					       { label:"- 宽度", type:"text", id:"width"},
+					       { label:"- 高度", type:"text", id:"height"},
+					       { label:"- 选项", type:"text", id:"options"},
+					       { label:"标签", type:"label"}, 
+					       { label:"- 文本", type:"text", id:"label"},
+					       { label:"- 宽度", type:"text", id:"labelWidth"},
+					       { label:"- 对齐", type:"richselect", id:"labelAlign", options:["left", "right"]},
+					       { label:"- 位置", type:"richselect", id:"labelPosition", options:["top", "left"]}
+					    ], 
+					    on:{
+					    	onaftereditstop:function(state, editor){
+					    		if (state.value == state.old) return;
+
+					    		var id = editor.config.id;
+					    		var value = state.value;
+					    		var config = last_ui[selected.config.id-1];
+
+					    		if (id == "view" && (value == "search" || value == "richselect" || value == "radio" || value == "segmented") && !config.options)
+					    			config.options = ["One", "Two"];
+
+					    		if (id == "options"){
+					    			value = value.split(",");
+					    			for (var i = 0; i < value.length; i++)
+					    				value[i] = value[i].replace(/^ /g,"");
+					    		}
+
+					    		if (id == "width" || id == "height"){
+					    			if (value === ""){
+					    				delete config[id];
+					    				refresh_preview();
+					    				return;
+					    			} else
+					    				value = value * 1;
+					    		}
+
+					    		config[id] = value;
+					    		refresh_preview();
+					    	}
+					    }}
+					]
+				},
+				{ gravity: 0.001 }
+			]}
+		]
+	});
+
+	webix.ui({
+		id:"help.popup", view:"popup", body:{
+			template:"<li>Type the field names in the textarea</li><br><li>Choose layout of the form and press Generate buttons</li><br><li>Click on separate form fields to adjust their settings</li><br><li>Click on Generated Code tab to get the JSON config for the created form"
+		}
+	})
+	
+	$$("columns_small").attachEvent("onAfterTabClick", function(id, e){
+		columns = $$("columns_small").getValue();
+	    $$("columns_big").setValue("");
+	});
+	$$("columns_big").attachEvent("onChange", function(newv, oldv){
+		if("" != newv){
+			$$("columns_small").setValue(newv);
+			columns = newv;
+		}
+	});
+
+	var selected = null;
+	webix.event(window, "click", function(e){
+		var view = webix.$$(e);
+		if (is_form_field(view))
+			select_form_field(view);
+	});
+	webix.event(window, "dblclick", function(e){
+		var view = webix.$$(e);
+		if (is_form_field(view))
+			select_form_field(view, "label");
+	});
+
+	$$("form_preview").focus = function(){};
+	$$("fields").focus();
+	</script>
+	<script type="text/javascript">
+	/**
+var enjoyhint_instance = new EnjoyHint({});
+
+function help(){
+	if ($$("fields").getValue() == "")
+		$$("fields").setValue("first_name:名\nlast_name:姓\nemail:邮箱");
+
+
+	$$("toptab").setValue("form_preview");
+
+	var enjoyhint_script_steps = [
+	  {
+	    "next #fields" : "在这输入 key:值 列表"
+	  },
+	  {
+		 "click #columns_small" : "选择几列布局"
+	  },
+	  {
+		  "click #generate_button":"生成表单"
+	  },
+	  {
+		  "click .webix_el_box":"选择一个生成的表单输入控件"
+	  },
+	  {
+		  "next .webix_property":"定制控件"
+	  },
+	  {
+		  "click .webix_item_tab:eq(1)":"获取生成的代码"
+	  }
+	];
+	enjoyhint_instance.set(enjoyhint_script_steps);
+	enjoyhint_instance.run();
+}
+if (!webix.storage.local.get("first_time_intro")){
+	webix.storage.local.put("first_time_intro", 1);
+	help();
+}**/
+var enjoyhint_instance = new EnjoyHint({});
+
+function help(){
+    if ($$("fields").getValue() == "")
+        $$("fields").setValue("first_name:名\nlast_name:姓\nemail:邮箱");
+
+
+    $$("toptab").setValue("form_preview");
+
+    var enjoyhint_script_steps = [
+      {
+        selector:$$("fields").$view,
+        event_type: "next",
+        description:'在这输入 key:值 列表'
+      },
+      {
+        selector:$$("columns_small").$view,
+        event:'click',
+        description:'选择几列布局'
+      },
+      {
+        selector:$$("generate_button").$view,
+        event:'click',
+        description:'生成表单'
+      },
+      {
+        selector:".webix_el_box",
+        event:'click',
+        description:'选择一个生成的表单输入控件'
+      },
+      {
+        selector:".webix_property",
+        event_type: "next",
+        shape:'circle',
+        timeout:100,
+        description:'定制控件'
+      },
+      {
+        selector:".webix_item_tab:eq(1)",
+        event:'click',
+        description:'获取生成的代码'
+      },
+    ];
+    enjoyhint_instance.setScript(enjoyhint_script_steps);
+    enjoyhint_instance.runScript();
+}
+if (!webix.storage.local.get("first_time_intro")){
+    webix.storage.local.put("first_time_intro", 1);
+    help();
+}
+	</script>
+</body>
+</html>

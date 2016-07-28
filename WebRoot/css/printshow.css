@@ -1,0 +1,164 @@
+#page {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+#nav, #header, #menu-bar, #sidebar, h2#postcomment, form#commentform,
+	#footer {
+	display: none;
+}
+
+a, a:visited {
+	text-decoration: underline;
+}
+
+a[href]:after {
+	content: " (" attr(href) ")";
+}
+
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+	content: "";
+} /* Don't show links for images, or javascript/internal links */
+pre, blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+
+thead {
+	display: table-header-group;
+} /* h5bp.com/t */
+tr, img {
+	page-break-inside: avoid;
+}
+
+img {
+	max-width: 100% !important;
+}
+
+@page {
+	margin: 0.5cm;
+}
+
+p, h2, h3 {
+	orphans: 3;
+	widows: 3;
+}
+
+h2, h3 {
+	page-break-after: avoid;
+}
+
+table {
+	height: 100%;
+	width: 20cm;
+	border-collapse: collapse;
+	border: 0;
+}
+
+th {
+	padding-right: 0px;
+	border: 0;
+}
+
+td {
+	border: 1px solid #333;
+	height: 20px;
+	line-height: 20px;
+}
+
+.page-break {
+	display: block;
+	page-break-before: always;
+}
+
+/* 文字左对齐 */
+.text_left{text-align: left;}
+/* 文字右对齐 */
+.text_right{text-align: right;}
+/* 文字居中 */
+.text_center{text-align: center;}
+/* 文字加粗 */
+.bold{font-weight: bold;}
+/* 左对齐 */
+.f_left{float: left;}
+/* 右对齐对齐 */
+.f_right{float: right;}
+
+.btn-lg {
+	padding: 10px 16px;
+	font-size: 22px;
+	line-height: 1.5;
+	border-radius: 6px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	-webkit-appearance: button;
+	cursor: pointer;
+	text-transform: none;
+	overflow: visible;
+	margin: 0;
+	font: inherit;
+	color: inherit;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-rendering: auto;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em 0em 0em 0em;
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	background-color: buttonface;
+	box-sizing: border-box;
+	padding: 2px 6px 3px;
+	border: 2px outset buttonface;
+	-webkit-writing-mode: horizontal-tb;
+}

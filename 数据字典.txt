@@ -1,0 +1,32 @@
+Table: app_blog	Remarks: 博客
+-----------+------------------+------+-----+--------------------------------------+---------
+ Field     | Type             | Null | Key | Default                              | Remarks 
+-----------+------------------+------+-----+--------------------------------------+---------
+ id        | bigserial(19)    | NO   | PRI | nextval('app_blog_id_seq'::regclass) | id      
+ title     | varchar(255)     | YES  |     |                                      | 标题      
+ content   | text(2147483647) | YES  |     |                                      | 内容      
+ post_at   | timestamp(29,6)  | YES  |     |                                      | 发布时间    
+ post_by   | varchar(64)      | YES  |     |                                      | 发布人     
+ type_code | varchar(16)      | YES  |     |                                      |         
+ author    | varchar(255)     | YES  |     |                                      |         
+-----------+------------------+------+-----+--------------------------------------+---------
+
+Table: app_music	Remarks: music list
+--------+---------------+------+-----+----------------------------------------+---------
+ Field  | Type          | Null | Key | Default                                | Remarks 
+--------+---------------+------+-----+----------------------------------------+---------
+ id     | bigserial(19) | NO   | PRI | nextval('app_music_id_seq'::regclass)  | id      
+ name   | varchar(255)  | YES  |     |                                        | name    
+ author | varchar(255)  | YES  |     |                                        | Author  
+ num    | bigserial(19) | NO   |     | nextval('app_music_num_seq'::regclass) |         
+--------+---------------+------+-----+----------------------------------------+---------
+
+Table: app_school	Remarks: school
+-------+---------------+------+-----+----------------------------------------+---------
+ Field | Type          | Null | Key | Default                                | Remarks 
+-------+---------------+------+-----+----------------------------------------+---------
+ id    | bigserial(19) | NO   | PRI | nextval('app_school_id_seq'::regclass) | id
+     
+ name  | varchar(255)  | YES  |     |                                        | name    
+-------+---------------+------+-----+----------------------------------------+---------
+

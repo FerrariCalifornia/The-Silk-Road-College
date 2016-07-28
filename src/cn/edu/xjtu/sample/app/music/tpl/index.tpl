@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("music_app.js"){}
+        include("music_logic.js"){}
+        include("music_layout.js"){}
+        include("music_form.js"){}
+        include("music_import.js"){}
+    }
+%>

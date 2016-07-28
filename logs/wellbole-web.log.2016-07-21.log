@@ -1,0 +1,130 @@
+[2016-07-21 10:25:08.949] [INFO ] [wb] .
+[2016-07-21 10:25:08.952] [INFO ] [wb] 作者：李飞（仨多他爹）
+[2016-07-21 10:25:08.952] [INFO ] [wb] .
+[2016-07-21 10:25:08.952] [INFO ] [wb] *****产品信息*****
+[2016-07-21 10:25:08.952] [INFO ] [wb] JFinal版本:2.2-java8-v6
+[2016-07-21 10:25:08.952] [INFO ] [wb] JFinal发布日期:2016-07-10
+[2016-07-21 10:25:08.953] [INFO ] [wb] JFinal改进功能:Shiro增加自定义后缀
+[2016-07-21 10:25:08.953] [INFO ] [wb] Core框架版本:8.7.0
+[2016-07-21 10:25:08.953] [INFO ] [wb] Core框架发布日期:2016-07-13
+[2016-07-21 10:25:08.953] [INFO ] [wb] Core框架改进功能:主键支持Long，Integer和String三种
+[2016-07-21 10:25:08.953] [INFO ] [wb] Web框架版本:9.11.0
+[2016-07-21 10:25:08.953] [INFO ] [wb] Web框架发布日期:2016-07-13
+[2016-07-21 10:25:08.954] [INFO ] [wb] Web框架改进功能:主键支持Long，Integer和String三种
+[2016-07-21 10:25:08.954] [INFO ] [wb] App应用版本:2.0
+[2016-07-21 10:25:08.954] [INFO ] [wb] App应用发布日期:2015-09-05
+[2016-07-21 10:25:08.954] [INFO ] [wb] App应用改进功能:核心框架更新
+[2016-07-21 10:25:08.954] [INFO ] [wb] .
+[2016-07-21 10:25:08.955] [INFO ] [wb] *****配置信息*****
+[2016-07-21 10:25:08.955] [INFO ] [wb] runMode:dev
+[2016-07-21 10:25:08.955] [INFO ] [wb] 运行模式:开发模式，显示请求参数，显示执行的SQL
+[2016-07-21 10:25:08.955] [INFO ] [wb] 运行端口：8000
+[2016-07-21 10:25:08.963] [INFO ] [wb] 访问地址：http://192.168.199.189:8000/
+[2016-07-21 10:25:08.964] [INFO ] [wb] 访问地址：http://127.0.0.1:8000/
+[2016-07-21 10:25:08.964] [INFO ] [wb] .
+[2016-07-21 10:25:08.964] [INFO ] [wb] *****环境信息*****
+[2016-07-21 10:25:08.964] [INFO ] [wb] os.name         = Mac OS X
+[2016-07-21 10:25:08.964] [INFO ] [wb] os.version      = 10.11.6
+[2016-07-21 10:25:08.965] [INFO ] [wb] os.arch         = x86_64
+[2016-07-21 10:25:08.965] [INFO ] [wb] file.separator  = /
+[2016-07-21 10:25:08.965] [INFO ] [wb] java.version    = 1.8.0_91
+[2016-07-21 10:25:08.965] [INFO ] [wb] java.vm.version = 25.91-b14
+[2016-07-21 10:25:08.966] [INFO ] [wb] java.home       = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+[2016-07-21 10:25:08.966] [INFO ] [wb] java.class.path = /Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/classes:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/HikariCP-2.4.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/antlr4-runtime-4.5.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/barcode4j-2.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/beetl-2.5.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/casclient.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cglib-nodep-3.2.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-beanutils-1.9.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-cli-1.3.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-codec-1.9.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-email-1.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-lang3-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-logging-1.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-net-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-pool-1.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-pool2-2.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cos-26Dec2008.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cron4j-2.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/druid-1.0.22.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ehcache-2.10.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/fastjson-1.2.13.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/guava-19.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/httpclient-4.3.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/httpcore-4.3.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ini4j-0.5.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javassist-3.20.0-GA.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.servlet-api-3.1.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.transaction-api-1.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.websocket-api-1.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jcommander-1.35.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jdbf-2.1.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jetty-all-9.3.9.v20160517-uber.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-2.2-java8-v6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-scheduler-2.2.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-sqlbuilder-1.0.0-rc2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-weixin.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-zbus-6.3.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/joda-time-2.9.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jpinyin-1.1.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jsr305-3.0.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ksoap2-android-assembly-3.0.0-RC.4-jar-with-dependencies.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/log4j-1.2.17.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/lombok-1.16.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mail-1.4.7.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mapdb-1.0.9.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.38.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/postgresql-9.4.1208.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/reflections-0.9.10.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-core-1.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-spring-1.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-web-1.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/sign-api-1.0.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/slf4j-api-1.7.19.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.19.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/sqljdbc4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/uuid-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-core-8.7.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-data-wr-4.8.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-jxl-2.6.12.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-web-9.11.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/xmlbeans-2.6.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/zbus-6.3.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/zxing-core-3.2.1.jar
+[2016-07-21 10:25:08.967] [INFO ] [wb] user.name = cc
+[2016-07-21 10:25:08.967] [INFO ] [wb] 处理器个数　　= 4
+[2016-07-21 10:25:08.968] [INFO ] [wb] 最大可分配内存 = 1820M
+[2016-07-21 10:25:08.968] [INFO ] [wb] .
+[2016-07-21 10:25:08.968] [INFO ] [wb] 开始加载插件并启动JFinal
+[2016-07-21 10:25:08.968] [INFO ] [wb] 每隔8秒，系统自动扫描变更，若变更则自动重启应用。
+[2016-07-21 10:25:09.096] [INFO ] [org.eclipse.jetty.util.log] Logging initialized @555ms
+[2016-07-21 10:25:09.376] [INFO ] [org.eclipse.jetty.server.Server] jetty-9.3.z-SNAPSHOT
+[2016-07-21 10:25:09.664] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-07-21 10:25:09.729] [INFO ] [/] Initializing Shiro environment
+[2016-07-21 10:25:09.730] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-07-21 10:25:10.114] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-07-21 10:25:10.116] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 384 ms.
+[2016-07-21 10:25:10.118] [WARN ] [org.eclipse.jetty.util.DeprecationWarning] Using @Deprecated Class org.eclipse.jetty.servlets.GzipFilter
+[2016-07-21 10:25:10.119] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-07-21 10:25:10.134] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-07-21 10:25:10.303] [INFO ] [org.reflections.Reflections] Reflections took 114 ms to scan 5 urls, producing 105 keys and 346 values [using 4 cores]
+[2016-07-21 10:25:10.441] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-07-21 10:25:10.445] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-07-21 10:25:10.445] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-07-21 10:25:10.446] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-07-21 10:25:10.448] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-07-21 10:25:10.448] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-07-21 10:25:10.449] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-07-21 10:25:10.449] [INFO ] [wb] routes.add("/app/blog",BlogController.class);
+[2016-07-21 10:25:10.449] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-07-21 10:25:10.449] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-07-21 10:25:10.450] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-07-21 10:25:10.450] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-07-21 10:25:10.451] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-07-21 10:25:10.451] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-07-21 10:25:10.452] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-07-21 10:25:10.453] [INFO ] [wb] routes.add("/app/music",MusicController.class);
+[2016-07-21 10:25:10.453] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-07-21 10:25:10.453] [INFO ] [wb] routes.add("/app/school",SchoolController.class);
+[2016-07-21 10:25:10.454] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-07-21 10:25:10.454] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-07-21 10:25:10.455] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-07-21 10:25:10.455] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-07-21 10:25:10.485] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-07-21 10:25:10.487] [INFO ] [wb] os.namemac os x
+[2016-07-21 10:25:10.487] [INFO ] [wb] os.archx86_64
+[2016-07-21 10:25:10.574] [INFO ] [wb] 添加DruidPlugin插件(config=sample[main])
+[2016-07-21 10:25:10.577] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-07-21 10:25:10.596] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-07-21 10:25:10.596] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-07-21 10:25:10.596] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-07-21 10:25:10.596] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-07-21 10:25:10.597] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-07-21 10:25:10.597] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-07-21 10:25:10.597] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-07-21 10:25:10.597] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-07-21 10:25:10.598] [INFO ] [wb] arp.addMapping("app_school",School.class);[config=main]
+[2016-07-21 10:25:10.598] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-07-21 10:25:10.598] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-07-21 10:25:10.599] [INFO ] [wb] arp.addMapping("app_blog",Blog.class);[config=main]
+[2016-07-21 10:25:10.599] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-07-21 10:25:10.599] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-07-21 10:25:10.599] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-07-21 10:25:10.600] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-07-21 10:25:10.601] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-07-21 10:25:10.601] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-07-21 10:25:10.601] [INFO ] [wb] arp.addMapping("app_music",Music.class);[config=main]
+[2016-07-21 10:25:10.604] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-07-21 10:25:11.268] [INFO ] [com.alibaba.druid.pool.DruidDataSource] {dataSource-1} inited
+[2016-07-21 10:25:11.491] [INFO ] [wb] 开始启动Event插件
+[2016-07-21 10:25:11.491] [INFO ] [wb] 启动固定线程数型线程池：poolSize=6
+[2016-07-21 10:25:11.541] [INFO ] [org.reflections.Reflections] Reflections took 48 ms to scan 5 urls, producing 105 keys and 346 values [using 4 cores]
+[2016-07-21 10:25:11.553] [INFO ] [wb] 添件监听器（type=com.wellbole.web.sys.setting.SettingEvent, listener=com.wellbole.web.sys.org.SettingEventListener)
+[2016-07-21 10:25:11.554] [INFO ] [wb] 添件监听器（type=com.wellbole.web.sys.org.OrgEvent, listener=com.wellbole.web.sys.user.OrgEventListener)
+[2016-07-21 10:25:11.586] [INFO ] [org.reflections.Reflections] Reflections took 29 ms to scan 6 urls, producing 105 keys and 356 values [using 4 cores]
+[2016-07-21 10:25:11.590] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-07-21 10:25:11.590] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-07-21 10:25:11.590] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-07-21 10:25:11.631] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@743cb8e0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-07-21 10:25:11.670] [INFO ] [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@1a1da881{HTTP/1.1,[http/1.1]}{0.0.0.0:8000}
+[2016-07-21 10:25:11.670] [INFO ] [org.eclipse.jetty.server.Server] Started @3140ms
+[2016-07-21 10:26:10.256] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-07-21 10:28:28.860] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-07-21 10:56:40.026] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登出或者超时，在线人数减1
+[2016-07-21 10:58:40.051] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登出或者超时，在线人数减1
+[2016-07-21 10:58:56.444] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-07-21 10:59:04.873] [INFO ] [wb] os.namemac os x
+[2016-07-21 10:59:04.873] [INFO ] [wb] os.archx86_64
+[2016-07-21 10:59:05.230] [INFO ] [com.wellbole.web.sys.login.LoginController] 用户:admin 登录系统,登录IP：0:0:0:0:0:0:0:1
+[2016-07-21 10:59:05.265] [INFO ] [wb] 获取listeners和executor成功
+[2016-07-21 10:59:05.265] [INFO ] [wb] 开始广播消息(event=com.wellbole.web.sys.login.LoginSuccessEvent)
+[2016-07-21 10:59:12.364] [INFO ] [cn.edu.xjtu.sample.app.music.MusicController] keyword=null
+[2016-07-21 10:59:12.406] [INFO ] [cn.edu.xjtu.sample.app.music.MusicController] keyword=null
+[2016-07-21 10:59:13.334] [INFO ] [cn.edu.xjtu.sample.app.school.SchoolController] keyword=null
+[2016-07-21 10:59:14.729] [INFO ] [cn.edu.xjtu.sample.app.music.MusicController] keyword=null
+[2016-07-21 10:59:14.767] [INFO ] [cn.edu.xjtu.sample.app.music.MusicController] keyword=null
+[2016-07-21 11:10:00.611] [INFO ] [cn.edu.xjtu.sample.app.school.SchoolController] keyword=null
+[2016-07-21 11:10:01.318] [INFO ] [cn.edu.xjtu.sample.app.music.MusicController] keyword=null
+[2016-07-21 11:10:05.495] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登出或者超时，在线人数减1
+[2016-07-21 11:10:05.500] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-07-21 12:05:28.128] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登出或者超时，在线人数减1

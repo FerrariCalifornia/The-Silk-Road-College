@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="renderer" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+        <meta name='viewport' content='user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height' />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="apple-mobile-web-app-title" content="${application!}">
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta http-equiv="expires" content="0"/>
+        <link rel='icon' href='${base}/images/${favicon!}' type='image/x-icon' />
+        <link rel='shortcut icon' href='${base}/images/${favicon!}' type='image/x-icon' />
+        <link rel="stylesheet" href="${base}/webix/webix.css?v=3.3.2" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="${base}/css/animate.min.css?v=3.3.2" type="text/css" media="screen">
+        <link rel="stylesheet" href="${base}/css/app.css?v=3.3.2" type="text/css" media="screen">
+        <script src="${base}/webix/webix.js?v=3.3.2" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+        //复写地址
+        webix.cdn="${base}/webix/cdn";
+        </script>
+        <script src="${base}/js/webix_patch.js?v=3.3.2" type="text/javascript" charset="utf-8"></script>
+        <script src="${base}/webix/i18n/zh.js?v=3.3.2" type="text/javascript" charset="utf-8"></script>
+        <script src="${base}/js/BaseAppPro.js?v=3.3" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body class="body">
+        <script type="text/javascript" charset="utf-8">
+        if (!webix.env.touch && webix.ui.scrollSize){
+            webix.CustomScroll.init();
+        }
+        webix.ui.fullScreen();
+        webix.ui(
+        		{view: "template", type:"clean",  template:'<img src="${base}/images/sjly_v1.png"  style="height: 75%;width:auto;margin-left: 15px;margin-top: 15px;" border="0">',  borderless:true}
+        		);
+        </script>
+    </body>
+</html>
