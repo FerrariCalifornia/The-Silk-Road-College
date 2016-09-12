@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("uRConference_app.js"){}
+        include("uRConference_logic.js"){}
+        include("uRConference_layout.js"){}
+        include("uRConference_form.js"){}
+        include("uRConference_import.js"){}
+    }
+%>

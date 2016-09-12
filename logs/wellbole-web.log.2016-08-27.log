@@ -1,0 +1,621 @@
+[2016-08-27 09:11:40.526] [INFO ] [wb] .
+[2016-08-27 09:11:40.529] [INFO ] [wb] 作者：李飞（仨多他爹）
+[2016-08-27 09:11:40.529] [INFO ] [wb] .
+[2016-08-27 09:11:40.530] [INFO ] [wb] *****产品信息*****
+[2016-08-27 09:11:40.530] [INFO ] [wb] JFinal版本:2.2-java8-v6
+[2016-08-27 09:11:40.530] [INFO ] [wb] JFinal发布日期:2016-07-10
+[2016-08-27 09:11:40.530] [INFO ] [wb] JFinal改进功能:Shiro增加自定义后缀
+[2016-08-27 09:11:40.531] [INFO ] [wb] Core框架版本:8.7.1
+[2016-08-27 09:11:40.531] [INFO ] [wb] Core框架发布日期:2016-07-13
+[2016-08-27 09:11:40.531] [INFO ] [wb] Core框架改进功能:主键支持Long，Integer和String三种
+[2016-08-27 09:11:40.531] [INFO ] [wb] Web框架版本:9.11.3
+[2016-08-27 09:11:40.531] [INFO ] [wb] Web框架发布日期:2016-07-29
+[2016-08-27 09:11:40.532] [INFO ] [wb] Web框架改进功能:去掉操作日志导出功能，修正用户锁定状态显示问题
+[2016-08-27 09:11:40.532] [INFO ] [wb] App应用版本:2.0
+[2016-08-27 09:11:40.532] [INFO ] [wb] App应用发布日期:2015-09-05
+[2016-08-27 09:11:40.533] [INFO ] [wb] App应用改进功能:核心框架更新
+[2016-08-27 09:11:40.533] [INFO ] [wb] .
+[2016-08-27 09:11:40.533] [INFO ] [wb] *****配置信息*****
+[2016-08-27 09:11:40.533] [INFO ] [wb] runMode:dev
+[2016-08-27 09:11:40.534] [INFO ] [wb] 运行模式:开发模式，显示请求参数，显示执行的SQL
+[2016-08-27 09:11:40.540] [INFO ] [wb] 运行端口：8000
+[2016-08-27 09:11:40.549] [INFO ] [wb] 访问地址：http://10.0.1.28:8000/
+[2016-08-27 09:11:40.549] [INFO ] [wb] 访问地址：http://127.0.0.1:8000/
+[2016-08-27 09:11:40.550] [INFO ] [wb] .
+[2016-08-27 09:11:40.550] [INFO ] [wb] *****环境信息*****
+[2016-08-27 09:11:40.550] [INFO ] [wb] os.name         = Mac OS X
+[2016-08-27 09:11:40.551] [INFO ] [wb] os.version      = 10.11.6
+[2016-08-27 09:11:40.551] [INFO ] [wb] os.arch         = x86_64
+[2016-08-27 09:11:40.551] [INFO ] [wb] file.separator  = /
+[2016-08-27 09:11:40.551] [INFO ] [wb] java.version    = 1.8.0_91
+[2016-08-27 09:11:40.555] [INFO ] [wb] java.vm.version = 25.91-b14
+[2016-08-27 09:11:40.555] [INFO ] [wb] java.home       = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+[2016-08-27 09:11:40.557] [INFO ] [wb] java.class.path = /Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/classes:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/HikariCP-2.4.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/antlr4-runtime-4.5.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/barcode4j-2.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/beetl-2.5.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cas-client-core-3.4.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cas-client-support-saml-3.4.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/casclient.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cglib-nodep-3.2.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-beanutils-1.9.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-cli-1.3.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-codec-1.9.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-email-1.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-lang3-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-logging-1.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-net-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-pool-1.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-pool2-2.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cos-26Dec2008.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cron4j-2.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/druid-1.0.22.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ehcache-2.10.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/fastjson-1.2.13.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/guava-19.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/httpclient-4.3.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/httpcore-4.3.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ini4j-0.5.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javassist-3.20.0-GA.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.servlet-api-3.1.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.transaction-api-1.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.websocket-api-1.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jcommander-1.35.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jdbf-2.1.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jetty-all-9.3.9.v20160517-uber.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-2.2-java8-v6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-scheduler-2.2.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-sqlbuilder-1.0.0-rc2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-weixin.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-zbus-6.3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/joda-time-2.9.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jpinyin-1.1.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jsr305-3.0.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ksoap2-android-assembly-3.0.0-RC.4-jar-with-dependencies.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/log4j-1.2.17.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/lombok-1.16.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mail-1.4.7.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mapdb-1.0.9.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.38.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/postgresql-9.4.1208.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/reflections-0.9.10.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-cas-1.2.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-core-1.2.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-spring-1.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-web-1.2.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/sign-api-1.0.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/slf4j-api-1.7.19.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.19.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/sqljdbc4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/uuid-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-core-8.7.2-sources.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-core-8.7.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-data-wr-4.8.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-jxl-2.6.12.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-web-9.11.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/xmlbeans-2.6.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/zbus-6.3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/zxing-core-3.2.1.jar
+[2016-08-27 09:11:40.557] [INFO ] [wb] user.name = cc
+[2016-08-27 09:11:40.558] [INFO ] [wb] 处理器个数　　= 4
+[2016-08-27 09:11:40.558] [INFO ] [wb] 最大可分配内存 = 1820M
+[2016-08-27 09:11:40.558] [INFO ] [wb] .
+[2016-08-27 09:11:40.558] [INFO ] [wb] 开始加载插件并启动JFinal
+[2016-08-27 09:11:40.559] [INFO ] [wb] 每隔8秒，系统自动扫描变更，若变更则自动重启应用。
+[2016-08-27 09:11:40.636] [INFO ] [org.eclipse.jetty.util.log] Logging initialized @469ms
+[2016-08-27 09:11:40.870] [INFO ] [org.eclipse.jetty.server.Server] jetty-9.3.z-SNAPSHOT
+[2016-08-27 09:11:41.149] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-27 09:11:41.211] [INFO ] [/] Initializing Shiro environment
+[2016-08-27 09:11:41.212] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-27 09:11:41.526] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-27 09:11:41.528] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 314 ms.
+[2016-08-27 09:11:41.529] [WARN ] [org.eclipse.jetty.util.DeprecationWarning] Using @Deprecated Class org.eclipse.jetty.servlets.GzipFilter
+[2016-08-27 09:11:41.531] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-27 09:11:41.547] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-27 09:11:41.769] [INFO ] [org.reflections.Reflections] Reflections took 171 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-27 09:11:41.873] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-27 09:11:41.875] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-27 09:11:41.875] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-27 09:11:41.883] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-27 09:11:41.883] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-27 09:11:41.884] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-27 09:11:41.884] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-27 09:11:41.884] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-27 09:11:41.885] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-27 09:11:41.885] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-27 09:11:41.885] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-27 09:11:41.886] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-27 09:11:41.886] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-27 09:11:41.888] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-27 09:11:41.888] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-27 09:11:41.892] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-27 09:11:41.893] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-27 09:11:41.896] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-27 09:11:41.902] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-27 09:11:41.904] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-27 09:11:41.904] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-27 09:11:41.905] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-27 09:11:41.905] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-27 09:11:41.907] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-27 09:11:41.907] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-27 09:11:41.908] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-27 09:11:41.908] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-27 09:11:41.908] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-27 09:11:41.909] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-27 09:11:41.910] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-27 09:11:41.911] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-27 09:11:41.913] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-27 09:11:41.914] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-27 09:11:41.916] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-27 09:11:41.918] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-27 09:11:41.920] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-27 09:11:41.922] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-27 09:11:41.923] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-27 09:11:41.955] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-27 09:11:41.958] [INFO ] [wb] os.namemac os x
+[2016-08-27 09:11:41.958] [INFO ] [wb] os.archx86_64
+[2016-08-27 09:11:42.041] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-27 09:11:42.046] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-27 09:11:42.084] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-27 09:11:42.085] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-27 09:11:42.085] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-27 09:11:42.086] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-27 09:11:42.086] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-27 09:11:42.087] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-27 09:11:42.088] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-27 09:11:42.088] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-27 09:11:42.089] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-27 09:11:42.089] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-27 09:11:42.090] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-27 09:11:42.090] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-27 09:11:42.090] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-27 09:11:42.090] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-27 09:11:42.091] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-27 09:11:42.092] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-27 09:11:42.093] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-27 09:11:42.094] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-27 09:11:42.096] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-27 09:11:42.096] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-27 09:11:42.098] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-27 09:11:42.098] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-27 09:11:42.099] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-27 09:11:42.099] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-27 09:11:42.100] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-27 09:11:42.100] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-27 09:11:42.101] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-27 09:11:42.102] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-27 09:11:42.103] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-27 09:11:42.103] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-27 09:11:42.103] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-27 09:11:42.105] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-27 09:11:42.105] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-27 09:11:42.106] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-27 09:11:42.106] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-27 09:11:42.109] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-27 09:11:42.144] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-27 09:11:42.158] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-27 09:11:42.242] [INFO ] [org.reflections.Reflections] Reflections took 80 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-27 09:11:42.258] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-27 09:11:42.259] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-27 09:11:42.260] [INFO ] [wb] 添加zbus插件
+[2016-08-27 09:11:42.622] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-27 09:11:43.032] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-27 09:11:43.033] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-27 09:11:43.041] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@1d5e4a0f
+[2016-08-27 09:11:43.082] [INFO ] [org.reflections.Reflections] Reflections took 41 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-27 09:11:43.101] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-27 09:11:43.102] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-27 09:11:43.102] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-27 09:11:43.190] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-27 09:11:43.232] [INFO ] [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@48c35007{HTTP/1.1,[http/1.1]}{0.0.0.0:8000}
+[2016-08-27 09:11:43.232] [INFO ] [org.eclipse.jetty.server.Server] Started @3072ms
+[2016-08-27 09:11:49.623] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-08-27 09:11:59.536] [INFO ] [wb] os.namemac os x
+[2016-08-27 09:11:59.537] [INFO ] [wb] os.archx86_64
+[2016-08-27 09:11:59.854] [INFO ] [com.wellbole.web.sys.login.LoginController] 用户:admin 登录系统,登录IP：0:0:0:0:0:0:0:1
+[2016-08-27 09:12:04.150] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-27 09:12:06.063] [INFO ] [cn.edu.xjtu.ikcest.srposttopic.SrPostTopicController] keyword=null
+[2016-08-27 09:12:06.669] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-27 09:12:12.444] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 09:12:12.570] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 09:12:14.452] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:12:14.522] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:12:16.445] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:12:16.547] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:15:47.936] [INFO ] [cn.edu.xjtu.ikcest.srposttopic.SrPostTopicController] keyword=null
+[2016-08-27 09:15:48.641] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-27 09:15:49.130] [INFO ] [cn.edu.xjtu.ikcest.srposttopic.SrPostTopicController] keyword=null
+[2016-08-27 09:15:49.685] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-27 09:15:51.800] [INFO ] [cn.edu.xjtu.ikcest.srposttopic.SrPostTopicController] keyword=null
+[2016-08-27 09:15:52.450] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-27 09:15:52.889] [INFO ] [cn.edu.xjtu.ikcest.srposttopic.SrPostTopicController] keyword=null
+[2016-08-27 09:15:55.709] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-27 09:16:04.904] [INFO ] [cn.edu.xjtu.ikcest.srposttopic.SrPostTopicController] keyword=null
+[2016-08-27 09:16:05.413] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-27 09:18:02.849] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:18:02.974] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:18:03.840] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:18:03.912] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:18:04.585] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:18:04.652] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:18:06.309] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:18:06.397] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:18:08.500] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-27 09:18:18.912] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 09:18:19.470] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:18:26.746] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:18:26.862] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:19:45.807] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:19:45.892] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:19:46.632] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:19:46.700] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:19:51.352] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 09:19:51.441] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 09:19:57.999] [INFO ] [cn.edu.xjtu.ikcest.crawlerrepo.CrawlerRepoController] keyword=null
+[2016-08-27 09:19:58.080] [INFO ] [cn.edu.xjtu.ikcest.crawlerrepo.CrawlerRepoController] keyword=null
+[2016-08-27 09:21:22.310] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:21:22.383] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:21:22.836] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:21:22.924] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:21:23.333] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:21:23.394] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:21:23.997] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:21:24.102] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:21:38.947] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:21:39.006] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:21:39.662] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:21:39.753] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:21:40.554] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:21:40.646] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:22:24.317] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 09:22:25.122] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 09:22:25.885] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:22:27.380] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:22:27.997] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:22:29.633] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 09:22:30.239] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:22:31.069] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:22:32.618] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 09:22:33.807] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:22:35.627] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:22:36.582] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 09:22:37.247] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:22:37.966] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:22:38.752] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 09:22:39.395] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 09:22:41.149] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:22:42.030] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:22:42.649] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:22:43.307] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 09:22:43.924] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:22:44.513] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:22:45.139] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:22:45.775] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 09:22:46.596] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 09:22:48.926] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 09:22:49.858] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:22:50.636] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:22:51.392] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:22:52.170] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 09:22:58.223] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:23:11.391] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:23:13.701] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 09:23:14.494] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:23:15.803] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:23:19.062] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:23:20.173] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 09:23:23.245] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:23:23.850] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:23:24.722] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 09:23:25.620] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:23:26.321] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:23:31.497] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 09:23:33.478] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 09:23:35.202] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 09:23:36.165] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 09:25:40.751] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:25:40.825] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 09:25:41.522] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:25:41.592] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:25:42.343] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:25:42.434] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:25:43.827] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:25:43.897] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:27:49.701] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:27:49.800] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:28:06.691] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:28:06.773] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:31:28.725] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:31:47.636] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:31:47.772] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:31:53.644] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:31:53.700] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 09:32:14.979] [INFO ] [com.wellbole.web.sys.tag.TagController] keyword=null
+[2016-08-27 09:32:16.136] [INFO ] [com.wellbole.web.sys.setting.SettingController] keyword=null
+[2016-08-27 09:32:31.481] [INFO ] [com.wellbole.web.sys.tag.TagController] keyword=null
+[2016-08-27 09:38:02.409] [INFO ] [com.wellbole.web.sys.tag.TagController] keyword=null
+[2016-08-27 09:38:24.505] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 09:38:24.607] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:50:35.019] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:53:22.497] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:53:22.568] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:53:24.586] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:53:24.688] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:53:31.651] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:53:31.718] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:53:37.335] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:53:37.426] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:53:40.320] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 10:53:40.919] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 10:53:41.877] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 10:53:42.582] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 10:53:43.202] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 10:53:43.918] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 10:53:46.354] [INFO ] [cn.edu.xjtu.sample.app.article.ArticleController] keyword=null
+[2016-08-27 10:56:37.491] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:56:37.587] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:57:23.874] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登出或者超时，在线人数减1
+[2016-08-27 10:57:23.879] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-08-27 10:57:34.739] [INFO ] [wb] os.namemac os x
+[2016-08-27 10:57:34.740] [INFO ] [wb] os.archx86_64
+[2016-08-27 10:57:50.783] [WARN ] [com.jfinal.plugin.ehcache.CacheKit] Could not find cache config [userMenuTree], using default.
+[2016-08-27 10:58:10.277] [INFO ] [com.wellbole.web.sys.resource.ResourceController] keyword=null
+[2016-08-27 10:58:45.520] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登出或者超时，在线人数减1
+[2016-08-27 10:58:45.526] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-08-27 10:58:54.829] [INFO ] [wb] os.namemac os x
+[2016-08-27 10:58:54.829] [INFO ] [wb] os.archx86_64
+[2016-08-27 10:58:55.079] [INFO ] [com.wellbole.web.sys.login.LoginController] 用户:admin 登录系统,登录IP：0:0:0:0:0:0:0:1
+[2016-08-27 10:58:57.902] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:58:58.017] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:58:58.361] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:58:58.429] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:58:58.817] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:58:58.878] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:58:59.872] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:58:59.961] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:59:02.216] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:02.287] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:02.692] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:59:02.759] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:59:05.100] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:59:05.202] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:59:06.531] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:59:06.592] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:59:06.868] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:06.938] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:07.361] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:59:07.429] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:59:08.417] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 10:59:09.113] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 10:59:10.118] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 10:59:10.929] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 10:59:11.267] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 10:59:11.706] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 10:59:12.264] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 10:59:15.192] [INFO ] [com.wellbole.web.sys.tag.TagController] keyword=null
+[2016-08-27 10:59:18.048] [INFO ] [com.wellbole.web.sys.tag.TagController] keyword=null
+[2016-08-27 10:59:21.847] [INFO ] [com.wellbole.web.sys.setting.SettingController] keyword=null
+[2016-08-27 10:59:35.286] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:59:35.408] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:59:35.723] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:35.770] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:36.077] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:59:36.148] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:59:36.788] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:36.836] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:37.047] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:59:37.152] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:59:37.525] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:59:37.608] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:59:39.398] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:39.502] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:39.958] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:59:40.029] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:59:40.901] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 10:59:53.882] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:59:53.971] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 10:59:54.393] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:59:54.456] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 10:59:55.714] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:55.771] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 10:59:57.492] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 10:59:57.572] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:01:00.096] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 11:01:01.838] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 11:01:02.188] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 11:01:02.490] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 11:01:02.961] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 11:01:03.405] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 11:01:03.852] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 11:01:04.193] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 11:01:04.556] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 11:01:05.079] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 11:01:08.825] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 11:01:09.393] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 11:01:10.085] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 11:01:10.448] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 11:01:10.999] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 11:01:12.243] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 11:01:34.938] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:01:35.001] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:01:35.468] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:01:35.528] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:01:35.815] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:01:35.887] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:02:13.452] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 11:02:13.550] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 11:02:14.073] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:02:14.171] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:02:15.140] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:02:15.234] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:02:15.940] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:02:16.013] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:02:18.764] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 11:02:19.511] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 11:02:20.215] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 11:02:20.947] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 11:02:21.723] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 11:02:22.473] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 11:02:23.123] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 11:02:23.814] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 11:02:24.814] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 11:02:25.737] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 11:02:27.823] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 11:02:28.506] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 11:02:29.961] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 11:02:30.675] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 11:02:31.357] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 11:02:35.359] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 11:02:36.208] [INFO ] [cn.edu.xjtu.ikcest.urconference.URConferenceController] keyword=null
+[2016-08-27 11:02:36.809] [INFO ] [cn.edu.xjtu.ikcest.uraffiliatedwith.URAffiliatedWithController] keyword=null
+[2016-08-27 11:02:37.590] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 11:02:38.567] [INFO ] [cn.edu.xjtu.ikcest.oarepo.OaRepoController] keyword=null
+[2016-08-27 11:02:42.834] [INFO ] [cn.edu.xjtu.ikcest.urauthor.URAuthorController] keyword=null
+[2016-08-27 11:02:43.275] [INFO ] [cn.edu.xjtu.ikcest.uruniversity.URUniversityController] keyword=null
+[2016-08-27 11:02:43.828] [INFO ] [cn.edu.xjtu.ikcest.urliterature.URLiteratureController] keyword=null
+[2016-08-27 11:02:46.552] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:02:46.639] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:02:47.101] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:02:47.166] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:02:47.664] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:02:47.749] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:02:48.395] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:02:48.475] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:02:49.020] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:02:49.092] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:02:49.794] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 11:02:49.892] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 11:03:02.274] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:03:02.332] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:03:06.026] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:03:06.121] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:03:08.727] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:04:28.323] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:28.371] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:30.042] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:30.103] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:30.623] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:30.705] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:31.484] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:31.537] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:33.133] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:33.195] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:46.964] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:04:47.037] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:04:47.733] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:47.792] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:48.360] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:48.449] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:48.973] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 11:04:49.063] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 11:04:49.705] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:49.784] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:50.508] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:50.567] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:51.329] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:04:51.405] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-27 11:04:52.492] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:52.550] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-27 11:04:53.060] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:53.138] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 11:04:53.682] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 11:04:53.779] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 11:06:38.420] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 15:41:54.642] [INFO ] [wb] .
+[2016-08-27 15:41:54.644] [INFO ] [wb] 作者：李飞（仨多他爹）
+[2016-08-27 15:41:54.644] [INFO ] [wb] .
+[2016-08-27 15:41:54.644] [INFO ] [wb] *****产品信息*****
+[2016-08-27 15:41:54.645] [INFO ] [wb] JFinal版本:2.2-java8-v6
+[2016-08-27 15:41:54.645] [INFO ] [wb] JFinal发布日期:2016-07-10
+[2016-08-27 15:41:54.645] [INFO ] [wb] JFinal改进功能:Shiro增加自定义后缀
+[2016-08-27 15:41:54.645] [INFO ] [wb] Core框架版本:8.7.1
+[2016-08-27 15:41:54.645] [INFO ] [wb] Core框架发布日期:2016-07-13
+[2016-08-27 15:41:54.645] [INFO ] [wb] Core框架改进功能:主键支持Long，Integer和String三种
+[2016-08-27 15:41:54.646] [INFO ] [wb] Web框架版本:9.11.3
+[2016-08-27 15:41:54.646] [INFO ] [wb] Web框架发布日期:2016-07-29
+[2016-08-27 15:41:54.646] [INFO ] [wb] Web框架改进功能:去掉操作日志导出功能，修正用户锁定状态显示问题
+[2016-08-27 15:41:54.647] [INFO ] [wb] App应用版本:2.0
+[2016-08-27 15:41:54.647] [INFO ] [wb] App应用发布日期:2015-09-05
+[2016-08-27 15:41:54.647] [INFO ] [wb] App应用改进功能:核心框架更新
+[2016-08-27 15:41:54.647] [INFO ] [wb] .
+[2016-08-27 15:41:54.647] [INFO ] [wb] *****配置信息*****
+[2016-08-27 15:41:54.647] [INFO ] [wb] runMode:dev
+[2016-08-27 15:41:54.648] [INFO ] [wb] 运行模式:开发模式，显示请求参数，显示执行的SQL
+[2016-08-27 15:41:54.648] [INFO ] [wb] 运行端口：8000
+[2016-08-27 15:41:54.659] [INFO ] [wb] 访问地址：http://10.0.1.28:8000/
+[2016-08-27 15:41:54.659] [INFO ] [wb] 访问地址：http://127.0.0.1:8000/
+[2016-08-27 15:41:54.659] [INFO ] [wb] .
+[2016-08-27 15:41:54.659] [INFO ] [wb] *****环境信息*****
+[2016-08-27 15:41:54.659] [INFO ] [wb] os.name         = Mac OS X
+[2016-08-27 15:41:54.660] [INFO ] [wb] os.version      = 10.11.6
+[2016-08-27 15:41:54.660] [INFO ] [wb] os.arch         = x86_64
+[2016-08-27 15:41:54.660] [INFO ] [wb] file.separator  = /
+[2016-08-27 15:41:54.660] [INFO ] [wb] java.version    = 1.8.0_91
+[2016-08-27 15:41:54.660] [INFO ] [wb] java.vm.version = 25.91-b14
+[2016-08-27 15:41:54.660] [INFO ] [wb] java.home       = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+[2016-08-27 15:41:54.660] [INFO ] [wb] java.class.path = /Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/classes:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/HikariCP-2.4.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/antlr4-runtime-4.5.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/barcode4j-2.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/beetl-2.5.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cas-client-core-3.4.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cas-client-support-saml-3.4.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/casclient.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cglib-nodep-3.2.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-beanutils-1.9.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-cli-1.3.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-codec-1.9.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-email-1.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-lang3-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-logging-1.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-net-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-pool-1.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-pool2-2.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cos-26Dec2008.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cron4j-2.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/druid-1.0.22.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ehcache-2.10.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/fastjson-1.2.13.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/guava-19.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/httpclient-4.3.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/httpcore-4.3.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ini4j-0.5.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javassist-3.20.0-GA.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.servlet-api-3.1.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.transaction-api-1.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.websocket-api-1.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jcommander-1.35.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jdbf-2.1.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jetty-all-9.3.9.v20160517-uber.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-2.2-java8-v6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-scheduler-2.2.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-sqlbuilder-1.0.0-rc2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-weixin.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-zbus-6.3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/joda-time-2.9.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jpinyin-1.1.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jsr305-3.0.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ksoap2-android-assembly-3.0.0-RC.4-jar-with-dependencies.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/log4j-1.2.17.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/lombok-1.16.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mail-1.4.7.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mapdb-1.0.9.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.38.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/postgresql-9.4.1208.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/reflections-0.9.10.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-cas-1.2.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-core-1.2.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-spring-1.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-web-1.2.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/sign-api-1.0.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/slf4j-api-1.7.19.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.19.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/sqljdbc4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/uuid-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-core-8.7.2-sources.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-core-8.7.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-data-wr-4.8.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-jxl-2.6.12.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-web-9.11.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/xmlbeans-2.6.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/zbus-6.3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/zxing-core-3.2.1.jar
+[2016-08-27 15:41:54.661] [INFO ] [wb] user.name = cc
+[2016-08-27 15:41:54.661] [INFO ] [wb] 处理器个数　　= 4
+[2016-08-27 15:41:54.662] [INFO ] [wb] 最大可分配内存 = 1820M
+[2016-08-27 15:41:54.662] [INFO ] [wb] .
+[2016-08-27 15:41:54.662] [INFO ] [wb] 开始加载插件并启动JFinal
+[2016-08-27 15:41:54.663] [INFO ] [wb] 每隔8秒，系统自动扫描变更，若变更则自动重启应用。
+[2016-08-27 15:41:54.721] [INFO ] [org.eclipse.jetty.util.log] Logging initialized @378ms
+[2016-08-27 15:41:54.941] [INFO ] [org.eclipse.jetty.server.Server] jetty-9.3.z-SNAPSHOT
+[2016-08-27 15:41:55.202] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-27 15:41:55.255] [INFO ] [/] Initializing Shiro environment
+[2016-08-27 15:41:55.256] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-27 15:41:55.993] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-27 15:41:55.995] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 737 ms.
+[2016-08-27 15:41:55.997] [WARN ] [org.eclipse.jetty.util.DeprecationWarning] Using @Deprecated Class org.eclipse.jetty.servlets.GzipFilter
+[2016-08-27 15:41:55.998] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-27 15:41:56.027] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-27 15:41:56.255] [INFO ] [org.reflections.Reflections] Reflections took 177 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-27 15:41:56.371] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-27 15:41:56.372] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-27 15:41:56.372] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-27 15:41:56.374] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-27 15:41:56.374] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-27 15:41:56.375] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-27 15:41:56.375] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-27 15:41:56.375] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-27 15:41:56.376] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-27 15:41:56.376] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-27 15:41:56.376] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-27 15:41:56.377] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-27 15:41:56.377] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-27 15:41:56.377] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-27 15:41:56.378] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-27 15:41:56.380] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-27 15:41:56.381] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-27 15:41:56.381] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-27 15:41:56.382] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-27 15:41:56.383] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-27 15:41:56.383] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-27 15:41:56.383] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-27 15:41:56.384] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-27 15:41:56.384] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-27 15:41:56.385] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-27 15:41:56.386] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-27 15:41:56.387] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-27 15:41:56.387] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-27 15:41:56.387] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-27 15:41:56.387] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-27 15:41:56.388] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-27 15:41:56.388] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-27 15:41:56.388] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-27 15:41:56.388] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-27 15:41:56.389] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-27 15:41:56.389] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-27 15:41:56.389] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-27 15:41:56.389] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-27 15:41:56.428] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-27 15:41:56.431] [INFO ] [wb] os.namemac os x
+[2016-08-27 15:41:56.432] [INFO ] [wb] os.archx86_64
+[2016-08-27 15:41:56.557] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-27 15:41:56.568] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-27 15:41:56.600] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-27 15:41:56.601] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-27 15:41:56.602] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-27 15:41:56.602] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-27 15:41:56.603] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-27 15:41:56.604] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-27 15:41:56.605] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-27 15:41:56.605] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-27 15:41:56.606] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-27 15:41:56.607] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-27 15:41:56.607] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-27 15:41:56.608] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-27 15:41:56.608] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-27 15:41:56.609] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-27 15:41:56.610] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-27 15:41:56.611] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-27 15:41:56.613] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-27 15:41:56.615] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-27 15:41:56.616] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-27 15:41:56.619] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-27 15:41:56.620] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-27 15:41:56.622] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-27 15:41:56.624] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-27 15:41:56.624] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-27 15:41:56.624] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-27 15:41:56.625] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-27 15:41:56.626] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-27 15:41:56.626] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-27 15:41:56.626] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-27 15:41:56.627] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-27 15:41:56.629] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-27 15:41:56.629] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-27 15:41:56.630] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-27 15:41:56.630] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-27 15:41:56.631] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-27 15:41:56.634] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-27 15:41:56.657] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-27 15:41:56.662] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-27 15:41:56.740] [INFO ] [org.reflections.Reflections] Reflections took 74 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-27 15:41:56.755] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-27 15:41:56.756] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-27 15:41:56.757] [INFO ] [wb] 添加zbus插件
+[2016-08-27 15:41:57.115] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-27 15:41:57.518] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-27 15:41:57.519] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-27 15:41:57.527] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@15ba30ed
+[2016-08-27 15:41:57.560] [INFO ] [org.reflections.Reflections] Reflections took 36 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-27 15:41:57.567] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-27 15:41:57.568] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-27 15:41:57.569] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-27 15:41:57.657] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-27 15:41:57.702] [INFO ] [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@1735c3f1{HTTP/1.1,[http/1.1]}{0.0.0.0:8000}
+[2016-08-27 15:41:57.702] [INFO ] [org.eclipse.jetty.server.Server] Started @3366ms
+[2016-08-27 15:42:07.204] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-08-27 15:42:16.120] [INFO ] [wb] os.namemac os x
+[2016-08-27 15:42:16.120] [INFO ] [wb] os.archx86_64
+[2016-08-27 15:42:16.419] [INFO ] [com.wellbole.web.sys.login.LoginController] 用户:admin 登录系统,登录IP：0:0:0:0:0:0:0:1
+[2016-08-27 15:42:19.610] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 15:42:19.700] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 15:42:20.315] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 15:42:20.420] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-27 15:42:21.162] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 15:42:21.241] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-27 17:21:06.447] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 22m38s122ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-08-27 18:08:16.013] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 32m9s387ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-08-27 18:08:17.290] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登出或者超时，在线人数减1
+[2016-08-27 18:33:05.433] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 24m19s260ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-08-27 18:42:49.085] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 8m43s638ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-08-27 23:04:12.928] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 3h56m51s90ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-08-27 23:31:19.007] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 27m6s79ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).

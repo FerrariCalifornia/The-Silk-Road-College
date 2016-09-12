@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("uRLiterature_app.js"){}
+        include("uRLiterature_logic.js"){}
+        include("uRLiterature_layout.js"){}
+        include("uRLiterature_form.js"){}
+        include("uRLiterature_import.js"){}
+    }
+%>

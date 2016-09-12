@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("oaRepo_app.js"){}
+        include("oaRepo_logic.js"){}
+        include("oaRepo_layout.js"){}
+        include("oaRepo_form.js"){}
+        include("oaRepo_import.js"){}
+    }
+%>

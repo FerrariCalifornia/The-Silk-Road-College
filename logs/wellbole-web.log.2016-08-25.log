@@ -1,0 +1,1353 @@
+[2016-08-25 15:51:27.999] [INFO ] [wb] .
+[2016-08-25 15:51:28.002] [INFO ] [wb] 作者：李飞（仨多他爹）
+[2016-08-25 15:51:28.002] [INFO ] [wb] .
+[2016-08-25 15:51:28.002] [INFO ] [wb] *****产品信息*****
+[2016-08-25 15:51:28.002] [INFO ] [wb] JFinal版本:2.2-java8-v6
+[2016-08-25 15:51:28.003] [INFO ] [wb] JFinal发布日期:2016-07-10
+[2016-08-25 15:51:28.003] [INFO ] [wb] JFinal改进功能:Shiro增加自定义后缀
+[2016-08-25 15:51:28.003] [INFO ] [wb] Core框架版本:8.7.1
+[2016-08-25 15:51:28.003] [INFO ] [wb] Core框架发布日期:2016-07-13
+[2016-08-25 15:51:28.003] [INFO ] [wb] Core框架改进功能:主键支持Long，Integer和String三种
+[2016-08-25 15:51:28.004] [INFO ] [wb] Web框架版本:9.11.3
+[2016-08-25 15:51:28.004] [INFO ] [wb] Web框架发布日期:2016-07-29
+[2016-08-25 15:51:28.004] [INFO ] [wb] Web框架改进功能:去掉操作日志导出功能，修正用户锁定状态显示问题
+[2016-08-25 15:51:28.004] [INFO ] [wb] App应用版本:2.0
+[2016-08-25 15:51:28.004] [INFO ] [wb] App应用发布日期:2015-09-05
+[2016-08-25 15:51:28.005] [INFO ] [wb] App应用改进功能:核心框架更新
+[2016-08-25 15:51:28.005] [INFO ] [wb] .
+[2016-08-25 15:51:28.005] [INFO ] [wb] *****配置信息*****
+[2016-08-25 15:51:28.005] [INFO ] [wb] runMode:dev
+[2016-08-25 15:51:28.005] [INFO ] [wb] 运行模式:开发模式，显示请求参数，显示执行的SQL
+[2016-08-25 15:51:28.005] [INFO ] [wb] 运行端口：8000
+[2016-08-25 15:51:28.015] [INFO ] [wb] 访问地址：http://10.0.1.28:8000/
+[2016-08-25 15:51:28.016] [INFO ] [wb] 访问地址：http://127.0.0.1:8000/
+[2016-08-25 15:51:28.016] [INFO ] [wb] .
+[2016-08-25 15:51:28.016] [INFO ] [wb] *****环境信息*****
+[2016-08-25 15:51:28.016] [INFO ] [wb] os.name         = Mac OS X
+[2016-08-25 15:51:28.016] [INFO ] [wb] os.version      = 10.11.6
+[2016-08-25 15:51:28.016] [INFO ] [wb] os.arch         = x86_64
+[2016-08-25 15:51:28.016] [INFO ] [wb] file.separator  = /
+[2016-08-25 15:51:28.017] [INFO ] [wb] java.version    = 1.8.0_91
+[2016-08-25 15:51:28.017] [INFO ] [wb] java.vm.version = 25.91-b14
+[2016-08-25 15:51:28.017] [INFO ] [wb] java.home       = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+[2016-08-25 15:51:28.018] [INFO ] [wb] java.class.path = /Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/classes:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/HikariCP-2.4.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/antlr4-runtime-4.5.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/barcode4j-2.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/beetl-2.5.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cas-client-core-3.4.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cas-client-support-saml-3.4.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/casclient.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cglib-nodep-3.2.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-beanutils-1.9.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-cli-1.3.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-codec-1.9.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-email-1.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-lang3-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-logging-1.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-net-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-pool-1.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/commons-pool2-2.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cos-26Dec2008.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/cron4j-2.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/druid-1.0.22.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ehcache-2.10.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/fastjson-1.2.13.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/guava-19.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/httpclient-4.3.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/httpcore-4.3.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ini4j-0.5.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javassist-3.20.0-GA.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.servlet-api-3.1.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.transaction-api-1.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/javax.websocket-api-1.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jcommander-1.35.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jdbf-2.1.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jetty-all-9.3.9.v20160517-uber.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-2.2-java8-v6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-scheduler-2.2.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-sqlbuilder-1.0.0-rc2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-weixin.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jfinal-zbus-6.3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/joda-time-2.9.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jpinyin-1.1.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/jsr305-3.0.1.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/ksoap2-android-assembly-3.0.0-RC.4-jar-with-dependencies.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/log4j-1.2.17.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/lombok-1.16.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mail-1.4.7.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mapdb-1.0.9.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.38.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/postgresql-9.4.1208.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/reflections-0.9.10.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-cas-1.2.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-core-1.2.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-spring-1.2.5.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/shiro-web-1.2.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/sign-api-1.0.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/slf4j-api-1.7.19.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.19.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/sqljdbc4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/uuid-3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-core-8.7.2-sources.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-core-8.7.2.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-data-wr-4.8.6.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-jxl-2.6.12.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/wb-web-9.11.3.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/xmlbeans-2.6.0.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/zbus-6.3.4.jar:/Users/cc/javawoworkspace/sample/WebRoot/WEB-INF/lib/zxing-core-3.2.1.jar
+[2016-08-25 15:51:28.018] [INFO ] [wb] user.name = cc
+[2016-08-25 15:51:28.019] [INFO ] [wb] 处理器个数　　= 4
+[2016-08-25 15:51:28.019] [INFO ] [wb] 最大可分配内存 = 1820M
+[2016-08-25 15:51:28.019] [INFO ] [wb] .
+[2016-08-25 15:51:28.019] [INFO ] [wb] 开始加载插件并启动JFinal
+[2016-08-25 15:51:28.020] [INFO ] [wb] 每隔8秒，系统自动扫描变更，若变更则自动重启应用。
+[2016-08-25 15:51:28.112] [INFO ] [org.eclipse.jetty.util.log] Logging initialized @447ms
+[2016-08-25 15:51:28.378] [INFO ] [org.eclipse.jetty.server.Server] jetty-9.3.z-SNAPSHOT
+[2016-08-25 15:51:28.661] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-25 15:51:28.747] [INFO ] [/] Initializing Shiro environment
+[2016-08-25 15:51:28.748] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-25 15:51:29.446] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-25 15:51:29.448] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 697 ms.
+[2016-08-25 15:51:29.449] [WARN ] [org.eclipse.jetty.util.DeprecationWarning] Using @Deprecated Class org.eclipse.jetty.servlets.GzipFilter
+[2016-08-25 15:51:29.451] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-25 15:51:29.467] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-25 15:51:29.749] [INFO ] [org.reflections.Reflections] Reflections took 228 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-25 15:51:29.865] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-25 15:51:29.865] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-25 15:51:29.865] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-25 15:51:29.867] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-25 15:51:29.868] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-25 15:51:29.868] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-25 15:51:29.869] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-25 15:51:29.869] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-25 15:51:29.869] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-25 15:51:29.870] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-25 15:51:29.870] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-25 15:51:29.871] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-25 15:51:29.871] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-25 15:51:29.872] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-25 15:51:29.872] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-25 15:51:29.873] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-25 15:51:29.873] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-25 15:51:29.874] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-25 15:51:29.874] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-25 15:51:29.875] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-25 15:51:29.875] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-25 15:51:29.875] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-25 15:51:29.876] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-25 15:51:29.878] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-25 15:51:29.878] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-25 15:51:29.878] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-25 15:51:29.878] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-25 15:51:29.879] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-25 15:51:29.879] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-25 15:51:29.880] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-25 15:51:29.880] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-25 15:51:29.880] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-25 15:51:29.881] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-25 15:51:29.881] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-25 15:51:29.881] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-25 15:51:29.882] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-25 15:51:29.882] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-25 15:51:29.883] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-25 15:51:29.924] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-25 15:51:29.929] [INFO ] [wb] os.namemac os x
+[2016-08-25 15:51:29.929] [INFO ] [wb] os.archx86_64
+[2016-08-25 15:51:30.031] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-25 15:51:30.038] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-25 15:51:30.067] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-25 15:51:30.068] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-25 15:51:30.068] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-25 15:51:30.069] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-25 15:51:30.069] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-25 15:51:30.069] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-25 15:51:30.069] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-25 15:51:30.069] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-25 15:51:30.070] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-25 15:51:30.070] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-25 15:51:30.070] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-25 15:51:30.070] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-25 15:51:30.070] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-25 15:51:30.071] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-25 15:51:30.071] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-25 15:51:30.072] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-25 15:51:30.072] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-25 15:51:30.072] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-25 15:51:30.072] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-25 15:51:30.073] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-25 15:51:30.073] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-25 15:51:30.073] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-25 15:51:30.074] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-25 15:51:30.075] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-25 15:51:30.075] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-25 15:51:30.076] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-25 15:51:30.076] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-25 15:51:30.076] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-25 15:51:30.077] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-25 15:51:30.077] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-25 15:51:30.078] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-25 15:51:30.078] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-25 15:51:30.078] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-25 15:51:30.078] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-25 15:51:30.078] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-25 15:51:30.081] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-25 15:51:30.113] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-25 15:51:30.121] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-25 15:51:30.190] [INFO ] [org.reflections.Reflections] Reflections took 66 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-25 15:51:30.203] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-25 15:51:30.205] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-25 15:51:30.205] [INFO ] [wb] 添加zbus插件
+[2016-08-25 15:51:30.800] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-25 15:51:31.292] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-25 15:51:31.293] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-25 15:51:31.302] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@5fa398e0
+[2016-08-25 15:51:31.354] [INFO ] [org.reflections.Reflections] Reflections took 57 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-25 15:51:31.359] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-25 15:51:31.359] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-25 15:51:31.360] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-25 15:51:31.430] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-25 15:51:31.477] [INFO ] [org.eclipse.jetty.server.AbstractConnector] Started ServerConnector@48c35007{HTTP/1.1,[http/1.1]}{0.0.0.0:8000}
+[2016-08-25 15:51:31.477] [INFO ] [org.eclipse.jetty.server.Server] Started @3818ms
+[2016-08-25 15:52:56.801] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-08-25 15:53:14.628] [INFO ] [wb] os.namemac os x
+[2016-08-25 15:53:14.628] [INFO ] [wb] os.archx86_64
+[2016-08-25 15:53:15.006] [INFO ] [com.wellbole.web.sys.login.LoginController] 用户:admin 登录系统,登录IP：0:0:0:0:0:0:0:1
+[2016-08-25 15:53:18.186] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-25 16:00:29.967] [INFO ] [org.zbus.mq.server.MqAdaptor] Clean: Session [remote=LocalBroker-Remote-dbea4b82-9ace-4b78-9a08-59fea7ab09c6, status=CLOSED]
+[2016-08-25 16:00:29.969] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Close initiated...
+[2016-08-25 16:00:29.973] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Closed.
+[2016-08-25 16:00:29.993] [INFO ] [/] Cleaning up Shiro Environment
+[2016-08-25 16:00:29.995] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,UNAVAILABLE}
+[2016-08-25 16:00:30.113] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-25 16:00:30.207] [INFO ] [/] Initializing Shiro environment
+[2016-08-25 16:00:30.208] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-25 16:00:30.327] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-25 16:00:30.328] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 117 ms.
+[2016-08-25 16:00:30.329] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-25 16:00:30.340] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-25 16:00:30.543] [INFO ] [org.reflections.Reflections] Reflections took 95 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-25 16:00:30.608] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-25 16:00:30.608] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-25 16:00:30.609] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-25 16:00:30.609] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-25 16:00:30.610] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-25 16:00:30.611] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-25 16:00:30.611] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-25 16:00:30.611] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-25 16:00:30.611] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-25 16:00:30.612] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-25 16:00:30.612] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-25 16:00:30.612] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-25 16:00:30.612] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-25 16:00:30.613] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-25 16:00:30.614] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-25 16:00:30.615] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-25 16:00:30.617] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-25 16:00:30.618] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-25 16:00:30.619] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-25 16:00:30.619] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-25 16:00:30.620] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-25 16:00:30.623] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-25 16:00:30.624] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-25 16:00:30.624] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-25 16:00:30.624] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-25 16:00:30.625] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-25 16:00:30.625] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-25 16:00:30.625] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-25 16:00:30.625] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-25 16:00:30.625] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-25 16:00:30.626] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-25 16:00:30.628] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-25 16:00:30.629] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-25 16:00:30.629] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-25 16:00:30.630] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-25 16:00:30.630] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-25 16:00:30.630] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-25 16:00:30.631] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-25 16:00:30.646] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-25 16:00:30.648] [INFO ] [wb] os.namemac os x
+[2016-08-25 16:00:30.649] [INFO ] [wb] os.archx86_64
+[2016-08-25 16:00:30.694] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-25 16:00:30.697] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-25 16:00:30.715] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-25 16:00:30.716] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-25 16:00:30.716] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-25 16:00:30.716] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-25 16:00:30.716] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-25 16:00:30.717] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-25 16:00:30.717] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-25 16:00:30.717] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-25 16:00:30.717] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-25 16:00:30.717] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-25 16:00:30.718] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-25 16:00:30.718] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-25 16:00:30.718] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-25 16:00:30.718] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-25 16:00:30.718] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-25 16:00:30.718] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-25 16:00:30.719] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-25 16:00:30.719] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-25 16:00:30.719] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-25 16:00:30.719] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-25 16:00:30.719] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-25 16:00:30.719] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-25 16:00:30.719] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-25 16:00:30.720] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-25 16:00:30.720] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-25 16:00:30.720] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-25 16:00:30.720] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-25 16:00:30.720] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-25 16:00:30.720] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-25 16:00:30.720] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-25 16:00:30.720] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-25 16:00:30.721] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-25 16:00:30.721] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-25 16:00:30.721] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-25 16:00:30.721] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-25 16:00:30.725] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-25 16:00:30.743] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-25 16:00:30.746] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-25 16:00:30.801] [INFO ] [org.reflections.Reflections] Reflections took 52 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-25 16:00:30.817] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-25 16:00:30.819] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-25 16:00:30.819] [INFO ] [wb] 添加zbus插件
+[2016-08-25 16:00:30.955] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-25 16:00:31.301] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-25 16:00:31.303] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-25 16:00:31.313] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@612b5f28
+[2016-08-25 16:00:31.475] [INFO ] [org.reflections.Reflections] Reflections took 157 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-25 16:00:31.497] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-25 16:00:31.501] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-25 16:00:31.519] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-25 16:00:31.549] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-25 16:01:11.168] [WARN ] [com.jfinal.core.Injector] Maybe the model attribute 0 is not exists. Please check parameter's name!
+[2016-08-25 16:01:11.171] [ERROR] [com.jfinal.core.ActionHandler] /srPost/create
+java.lang.RuntimeException: Can not convert parameter: data_type
+	at com.jfinal.core.Injector.injectModel(Injector.java:142)
+	at com.jfinal.core.Controller.getModel(Controller.java:800)
+	at com.wellbole.web.core.controller.SqlBuilderBaseCrudController.create(SqlBuilderBaseCrudController.java:110)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:74)
+	at com.jfinal.plugin.activerecord.tx.Tx.intercept(Tx.java:77)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.plugin.shiro.ShiroInterceptor.intercept(ShiroInterceptor.java:94)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.wellbole.web.core.handler.ActionExtNameHandler.handle(ActionExtNameHandler.java:45)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:50)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:51)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:524)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NumberFormatException: For input string: "qw"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.jfinal.core.TypeConverter.convert(TypeConverter.java:71)
+	at com.jfinal.core.Injector.injectModel(Injector.java:138)
+	... 48 more
+[2016-08-25 16:02:09.133] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-25 16:02:25.321] [WARN ] [com.jfinal.core.Injector] Maybe the model attribute 0 is not exists. Please check parameter's name!
+[2016-08-25 16:02:25.362] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-25 16:03:23.044] [WARN ] [com.jfinal.core.Injector] Maybe the model attribute 0 is not exists. Please check parameter's name!
+[2016-08-25 16:03:23.055] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-25 16:07:14.120] [INFO ] [org.zbus.mq.server.MqAdaptor] Clean: Session [remote=LocalBroker-Remote-8875f8cf-116f-4290-a641-df4b66097e00, status=CLOSED]
+[2016-08-25 16:07:14.120] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Close initiated...
+[2016-08-25 16:07:14.131] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Closed.
+[2016-08-25 16:07:14.136] [INFO ] [/] Cleaning up Shiro Environment
+[2016-08-25 16:07:14.138] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,UNAVAILABLE}
+[2016-08-25 16:07:14.216] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-25 16:07:14.286] [INFO ] [/] Initializing Shiro environment
+[2016-08-25 16:07:14.287] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-25 16:07:14.394] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-25 16:07:14.396] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 107 ms.
+[2016-08-25 16:07:14.397] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-25 16:07:14.407] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-25 16:07:14.611] [INFO ] [org.reflections.Reflections] Reflections took 174 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-25 16:07:14.661] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-25 16:07:14.662] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-25 16:07:14.663] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-25 16:07:14.664] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-25 16:07:14.664] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-25 16:07:14.664] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-25 16:07:14.664] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-25 16:07:14.665] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-25 16:07:14.665] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-25 16:07:14.665] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-25 16:07:14.665] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-25 16:07:14.665] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-25 16:07:14.667] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-25 16:07:14.667] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-25 16:07:14.668] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-25 16:07:14.668] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-25 16:07:14.668] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-25 16:07:14.668] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-25 16:07:14.668] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-25 16:07:14.668] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-25 16:07:14.668] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-25 16:07:14.669] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-25 16:07:14.669] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-25 16:07:14.670] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-25 16:07:14.670] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-25 16:07:14.670] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-25 16:07:14.670] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-25 16:07:14.670] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-25 16:07:14.670] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-25 16:07:14.952] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-25 16:07:14.954] [INFO ] [wb] os.namemac os x
+[2016-08-25 16:07:14.954] [INFO ] [wb] os.archx86_64
+[2016-08-25 16:07:14.997] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-25 16:07:14.999] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-25 16:07:15.015] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-25 16:07:15.015] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-25 16:07:15.015] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-25 16:07:15.015] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-25 16:07:15.015] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-25 16:07:15.015] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-25 16:07:15.015] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-25 16:07:15.015] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-25 16:07:15.015] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-25 16:07:15.016] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-25 16:07:15.016] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-25 16:07:15.016] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-25 16:07:15.016] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-25 16:07:15.016] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-25 16:07:15.016] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-25 16:07:15.016] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-25 16:07:15.016] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-25 16:07:15.017] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-25 16:07:15.018] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-25 16:07:15.018] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-25 16:07:15.018] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-25 16:07:15.018] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-25 16:07:15.018] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-25 16:07:15.018] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-25 16:07:15.020] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-25 16:07:15.039] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-25 16:07:15.043] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-25 16:07:15.113] [INFO ] [org.reflections.Reflections] Reflections took 68 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-25 16:07:15.124] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-25 16:07:15.126] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-25 16:07:15.126] [INFO ] [wb] 添加zbus插件
+[2016-08-25 16:07:15.245] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-25 16:07:15.562] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-25 16:07:15.563] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-25 16:07:15.571] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@1b813255
+[2016-08-25 16:07:15.592] [INFO ] [org.reflections.Reflections] Reflections took 27 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-25 16:07:15.595] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-25 16:07:15.595] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-25 16:07:15.595] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-25 16:07:15.608] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-25 16:07:35.774] [INFO ] [cn.edu.xjtu.ikcest.srposttopic.SrPostTopicController] keyword=null
+[2016-08-25 16:07:45.845] [INFO ] [cn.edu.xjtu.ikcest.srtopic.SrTopicController] keyword=null
+[2016-08-25 16:08:19.892] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 16:08:20.901] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-25 16:08:21.810] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 16:08:22.427] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:08:23.246] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 16:08:24.274] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:08:24.657] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 16:08:25.079] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-25 16:08:27.719] [INFO ] [cn.edu.xjtu.ikcest.crawlerrepo.CrawlerRepoController] keyword=null
+[2016-08-25 16:08:28.678] [INFO ] [cn.edu.xjtu.ikcest.srnewsresult.SrNewsResultController] keyword=null
+[2016-08-25 16:08:29.804] [INFO ] [cn.edu.xjtu.ikcest.srtopic.SrTopicController] keyword=null
+[2016-08-25 16:08:31.099] [INFO ] [cn.edu.xjtu.ikcest.crawlerrepo.CrawlerRepoController] keyword=null
+[2016-08-25 16:08:34.262] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 16:08:35.235] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:08:35.927] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 16:08:46.162] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-25 16:08:57.194] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:11:24.669] [INFO ] [org.zbus.mq.server.MqAdaptor] Clean: Session [remote=LocalBroker-Remote-04f7178d-6246-4a35-867e-d8a0f9f3780e, status=CLOSED]
+[2016-08-25 16:11:24.671] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Close initiated...
+[2016-08-25 16:11:24.681] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Closed.
+[2016-08-25 16:11:24.686] [INFO ] [/] Cleaning up Shiro Environment
+[2016-08-25 16:11:24.687] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,UNAVAILABLE}
+[2016-08-25 16:11:24.752] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-25 16:11:24.980] [INFO ] [/] Initializing Shiro environment
+[2016-08-25 16:11:24.981] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-25 16:11:25.084] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-25 16:11:25.086] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 103 ms.
+[2016-08-25 16:11:25.087] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-25 16:11:25.100] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-25 16:11:25.254] [INFO ] [org.reflections.Reflections] Reflections took 123 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-25 16:11:25.328] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-25 16:11:25.328] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-25 16:11:25.328] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-25 16:11:25.328] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-25 16:11:25.328] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-25 16:11:25.328] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-25 16:11:25.328] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-25 16:11:25.328] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-25 16:11:25.328] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-25 16:11:25.329] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-25 16:11:25.329] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-25 16:11:25.329] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-25 16:11:25.329] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-25 16:11:25.329] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-25 16:11:25.330] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-25 16:11:25.331] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-25 16:11:25.331] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-25 16:11:25.331] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-25 16:11:25.332] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-25 16:11:25.332] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-25 16:11:25.332] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-25 16:11:25.332] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-25 16:11:25.333] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-25 16:11:25.333] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-25 16:11:25.333] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-25 16:11:25.333] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-25 16:11:25.333] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-25 16:11:25.333] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-25 16:11:25.333] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-25 16:11:25.333] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-25 16:11:25.333] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-25 16:11:25.334] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-25 16:11:25.334] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-25 16:11:25.334] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-25 16:11:25.335] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-25 16:11:25.335] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-25 16:11:25.335] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-25 16:11:25.336] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-25 16:11:25.623] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-25 16:11:25.625] [INFO ] [wb] os.namemac os x
+[2016-08-25 16:11:25.626] [INFO ] [wb] os.archx86_64
+[2016-08-25 16:11:25.671] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-25 16:11:25.673] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-25 16:11:25.690] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-25 16:11:25.690] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-25 16:11:25.690] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-25 16:11:25.690] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-25 16:11:25.690] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-25 16:11:25.691] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-25 16:11:25.692] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-25 16:11:25.692] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-25 16:11:25.692] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-25 16:11:25.692] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-25 16:11:25.692] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-25 16:11:25.692] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-25 16:11:25.692] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-25 16:11:25.693] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-25 16:11:25.693] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-25 16:11:25.693] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-25 16:11:25.693] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-25 16:11:25.693] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-25 16:11:25.693] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-25 16:11:25.693] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-25 16:11:25.693] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-25 16:11:25.693] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-25 16:11:25.694] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-25 16:11:25.694] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-25 16:11:25.694] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-25 16:11:25.694] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-25 16:11:25.695] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-25 16:11:25.709] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-25 16:11:25.712] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-25 16:11:25.762] [INFO ] [org.reflections.Reflections] Reflections took 49 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-25 16:11:25.767] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-25 16:11:25.768] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-25 16:11:25.768] [INFO ] [wb] 添加zbus插件
+[2016-08-25 16:11:25.905] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-25 16:11:26.273] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-25 16:11:26.274] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-25 16:11:26.283] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@bea117b
+[2016-08-25 16:11:26.310] [INFO ] [org.reflections.Reflections] Reflections took 33 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-25 16:11:26.312] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-25 16:11:26.313] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-25 16:11:26.313] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-25 16:11:26.342] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-25 16:11:50.436] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 16:11:54.206] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:11:54.896] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 16:11:56.715] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:12:45.560] [WARN ] [com.jfinal.core.Injector] Maybe the model attribute 0 is not exists. Please check parameter's name!
+[2016-08-25 16:12:45.578] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:12:49.669] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 16:21:30.141] [INFO ] [cn.edu.xjtu.ikcest.srposttopic.SrPostTopicController] keyword=null
+[2016-08-25 16:21:30.590] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-25 16:21:42.244] [WARN ] [com.jfinal.core.Injector] Maybe the model attribute 0 is not exists. Please check parameter's name!
+[2016-08-25 16:21:42.258] [INFO ] [cn.edu.xjtu.ikcest.srpost.SrPostController] keyword=null
+[2016-08-25 16:21:47.649] [INFO ] [cn.edu.xjtu.ikcest.srnewsresult.SrNewsResultController] keyword=null
+[2016-08-25 16:21:50.745] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:21:58.393] [WARN ] [com.jfinal.core.Injector] Maybe the model attribute 0 is not exists. Please check parameter's name!
+[2016-08-25 16:21:58.426] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:22:11.537] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] uploadFile fileName=result (1).xls
+[2016-08-25 16:22:11.537] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] uploadFile originalFileName=result (1).xls
+[2016-08-25 16:22:11.997] [ERROR] [com.jfinal.core.ActionHandler] /ebookRepo/uploadFile
+com.wellbole.data.reader.exception.DataReadException: 导入时发生错误：
+不能完成列名－》字段名的映射，请检查改列名：author;
+不能完成列名－》字段名的映射，请检查改列名：year;
+不能完成列名－》字段名的映射，请检查改列名：eisbn;
+不能完成列名－》字段名的映射，请检查改列名：id;
+不能完成列名－》字段名的映射，请检查改列名：img_url;
+不能完成列名－》字段名的映射，请检查改列名：data__isbn;
+不能完成列名－》字段名的映射，请检查改列名：language;
+不能完成列名－》字段名的映射，请检查改列名：page_counter;
+不能完成列名－》字段名的映射，请检查改列名：publisher;
+不能完成列名－》字段名的映射，请检查改列名：summary;
+不能完成列名－》字段名的映射，请检查改列名：title;
+不能完成列名－》字段名的映射，请检查改列名：url;
+
+	at com.wellbole.data.reader.excel.ExcelDataReader.read(ExcelDataReader.java:170)
+	at cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController.uploadFile(EbookRepoController.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:74)
+	at com.jfinal.plugin.activerecord.tx.Tx.intercept(Tx.java:77)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.plugin.shiro.ShiroInterceptor.intercept(ShiroInterceptor.java:94)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.wellbole.web.core.handler.ActionExtNameHandler.handle(ActionExtNameHandler.java:45)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:50)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:51)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:524)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-08-25 16:22:25.558] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:22:29.478] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:22:30.471] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:23:38.462] [INFO ] [cn.edu.xjtu.ikcest.srnewsresult.SrNewsResultController] keyword=null
+[2016-08-25 16:23:39.277] [INFO ] [cn.edu.xjtu.ikcest.srtopic.SrTopicController] keyword=null
+[2016-08-25 16:23:42.531] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:24:24.218] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] uploadFile fileName=result (1)1.xls
+[2016-08-25 16:24:24.218] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] uploadFile originalFileName=result (1).xls
+[2016-08-25 16:24:24.476] [ERROR] [com.jfinal.core.ActionHandler] /ebookRepo/uploadFile
+com.wellbole.data.reader.exception.DataReadException: 导入时发生错误：
+不能完成列名－》字段名的映射，请检查改列名：author;
+不能完成列名－》字段名的映射，请检查改列名：year;
+不能完成列名－》字段名的映射，请检查改列名：eisbn;
+不能完成列名－》字段名的映射，请检查改列名：id;
+不能完成列名－》字段名的映射，请检查改列名：img_url;
+不能完成列名－》字段名的映射，请检查改列名：data__isbn;
+不能完成列名－》字段名的映射，请检查改列名：language;
+不能完成列名－》字段名的映射，请检查改列名：page_counter;
+不能完成列名－》字段名的映射，请检查改列名：publisher;
+不能完成列名－》字段名的映射，请检查改列名：summary;
+不能完成列名－》字段名的映射，请检查改列名：title;
+不能完成列名－》字段名的映射，请检查改列名：url;
+
+	at com.wellbole.data.reader.excel.ExcelDataReader.read(ExcelDataReader.java:170)
+	at cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController.uploadFile(EbookRepoController.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:74)
+	at com.jfinal.plugin.activerecord.tx.Tx.intercept(Tx.java:77)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.plugin.shiro.ShiroInterceptor.intercept(ShiroInterceptor.java:94)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.wellbole.web.core.handler.ActionExtNameHandler.handle(ActionExtNameHandler.java:45)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:50)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:51)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:524)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-08-25 16:27:59.931] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 16:28:05.039] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 16:28:05.371] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:28:21.563] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] uploadFile fileName=result (1)2.xls
+[2016-08-25 16:28:21.563] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] uploadFile originalFileName=result (1).xls
+[2016-08-25 16:28:21.865] [ERROR] [com.jfinal.core.ActionHandler] /ebookRepo/uploadFile
+com.wellbole.data.reader.exception.DataReadException: 导入时发生错误：
+不能完成列名－》字段名的映射，请检查改列名：author;
+不能完成列名－》字段名的映射，请检查改列名：year;
+不能完成列名－》字段名的映射，请检查改列名：eisbn;
+不能完成列名－》字段名的映射，请检查改列名：id;
+不能完成列名－》字段名的映射，请检查改列名：img_url;
+不能完成列名－》字段名的映射，请检查改列名：isbn;
+不能完成列名－》字段名的映射，请检查改列名：language;
+不能完成列名－》字段名的映射，请检查改列名：page_counter;
+不能完成列名－》字段名的映射，请检查改列名：publisher;
+不能完成列名－》字段名的映射，请检查改列名：summary;
+不能完成列名－》字段名的映射，请检查改列名：title;
+不能完成列名－》字段名的映射，请检查改列名：url;
+
+	at com.wellbole.data.reader.excel.ExcelDataReader.read(ExcelDataReader.java:170)
+	at cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController.uploadFile(EbookRepoController.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:74)
+	at com.jfinal.plugin.activerecord.tx.Tx.intercept(Tx.java:77)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.plugin.shiro.ShiroInterceptor.intercept(ShiroInterceptor.java:94)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.wellbole.web.core.handler.ActionExtNameHandler.handle(ActionExtNameHandler.java:45)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:50)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668)
+	at org.eclipse.jetty.servlets.GzipFilter.doFilter(GzipFilter.java:51)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1676)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:524)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-08-25 16:35:37.111] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 16:35:38.171] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:35:42.658] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 16:35:43.312] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:36:07.609] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] uploadFile fileName=result (1)3.xls
+[2016-08-25 16:36:07.609] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] uploadFile originalFileName=result (1).xls
+[2016-08-25 16:36:08.114] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:36:08.180] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:36:18.460] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:36:21.705] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:36:24.474] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:36:28.641] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:36:41.036] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 16:40:22.569] [INFO ] [org.zbus.mq.server.MqAdaptor] Clean: Session [remote=LocalBroker-Remote-257e746e-09c0-4212-9589-e97bae77b7a4, status=CLOSED]
+[2016-08-25 16:40:22.571] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Close initiated...
+[2016-08-25 16:40:22.583] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Closed.
+[2016-08-25 16:40:22.587] [INFO ] [/] Cleaning up Shiro Environment
+[2016-08-25 16:40:22.588] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,UNAVAILABLE}
+[2016-08-25 16:40:22.647] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-25 16:40:22.712] [INFO ] [/] Initializing Shiro environment
+[2016-08-25 16:40:22.713] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-25 16:40:22.814] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-25 16:40:22.815] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 100 ms.
+[2016-08-25 16:40:22.816] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-25 16:40:22.825] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-25 16:40:22.979] [INFO ] [org.reflections.Reflections] Reflections took 126 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-25 16:40:23.050] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-25 16:40:23.050] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-25 16:40:23.051] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-25 16:40:23.052] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-25 16:40:23.052] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-25 16:40:23.052] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-25 16:40:23.052] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-25 16:40:23.053] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-25 16:40:23.053] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-25 16:40:23.053] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-25 16:40:23.053] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-25 16:40:23.053] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-25 16:40:23.053] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-25 16:40:23.055] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-25 16:40:23.055] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-25 16:40:23.055] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-25 16:40:23.055] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-25 16:40:23.055] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-25 16:40:23.055] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-25 16:40:23.055] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-25 16:40:23.056] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-25 16:40:23.056] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-25 16:40:23.056] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-25 16:40:23.056] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-25 16:40:23.056] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-25 16:40:23.056] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-25 16:40:23.056] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-25 16:40:23.056] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-25 16:40:23.364] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-25 16:40:23.366] [INFO ] [wb] os.namemac os x
+[2016-08-25 16:40:23.366] [INFO ] [wb] os.archx86_64
+[2016-08-25 16:40:23.417] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-25 16:40:23.420] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-25 16:40:23.443] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-25 16:40:23.443] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-25 16:40:23.444] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-25 16:40:23.445] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-25 16:40:23.445] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-25 16:40:23.445] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-25 16:40:23.445] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-25 16:40:23.445] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-25 16:40:23.445] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-25 16:40:23.445] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-25 16:40:23.446] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-25 16:40:23.447] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-25 16:40:23.448] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-25 16:40:23.474] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-25 16:40:23.478] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-25 16:40:23.521] [INFO ] [org.reflections.Reflections] Reflections took 41 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-25 16:40:23.529] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-25 16:40:23.531] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-25 16:40:23.531] [INFO ] [wb] 添加zbus插件
+[2016-08-25 16:40:23.680] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-25 16:40:23.983] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-25 16:40:23.983] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-25 16:40:24.002] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@5804b585
+[2016-08-25 16:40:24.042] [INFO ] [org.reflections.Reflections] Reflections took 55 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-25 16:40:24.044] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-25 16:40:24.044] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-25 16:40:24.044] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-25 16:40:24.072] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-25 16:41:35.322] [INFO ] [org.zbus.mq.server.MqAdaptor] Clean: Session [remote=LocalBroker-Remote-4b10099d-ec3d-4fad-b519-c0327a5b9a17, status=CLOSED]
+[2016-08-25 16:41:35.324] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Close initiated...
+[2016-08-25 16:41:35.336] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Closed.
+[2016-08-25 16:41:35.342] [INFO ] [/] Cleaning up Shiro Environment
+[2016-08-25 16:41:35.343] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,UNAVAILABLE}
+[2016-08-25 16:41:35.447] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-25 16:41:35.516] [INFO ] [/] Initializing Shiro environment
+[2016-08-25 16:41:35.517] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-25 16:41:35.632] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-25 16:41:35.633] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 114 ms.
+[2016-08-25 16:41:35.633] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-25 16:41:35.644] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-25 16:41:35.814] [INFO ] [org.reflections.Reflections] Reflections took 140 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-25 16:41:35.870] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-25 16:41:35.873] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-25 16:41:35.873] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-25 16:41:35.873] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-25 16:41:35.873] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-25 16:41:35.873] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-25 16:41:35.873] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-25 16:41:35.873] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-25 16:41:35.873] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-25 16:41:35.873] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-25 16:41:35.874] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-25 16:41:35.875] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-25 16:41:35.875] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-25 16:41:35.875] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-25 16:41:35.875] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-25 16:41:35.875] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-25 16:41:35.876] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-25 16:41:35.876] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-25 16:41:35.876] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-25 16:41:35.876] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-25 16:41:35.876] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-25 16:41:35.877] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-25 16:41:35.877] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-25 16:41:35.877] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-25 16:41:35.877] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-25 16:41:35.877] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-25 16:41:35.877] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-25 16:41:35.878] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-25 16:41:35.878] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-25 16:41:35.878] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-25 16:41:35.878] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-25 16:41:35.878] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-25 16:41:35.878] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-25 16:41:35.878] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-25 16:41:35.878] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-25 16:41:35.878] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-25 16:41:35.879] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-25 16:41:35.879] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-25 16:41:35.893] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-25 16:41:35.894] [INFO ] [wb] os.namemac os x
+[2016-08-25 16:41:35.894] [INFO ] [wb] os.archx86_64
+[2016-08-25 16:41:35.933] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-25 16:41:35.935] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-25 16:41:35.948] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-25 16:41:35.949] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-25 16:41:35.949] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-25 16:41:35.949] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-25 16:41:35.949] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-25 16:41:35.949] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-25 16:41:35.949] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-25 16:41:35.949] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-25 16:41:35.950] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-25 16:41:35.951] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-25 16:41:35.951] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-25 16:41:35.951] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-25 16:41:35.951] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-25 16:41:35.951] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-25 16:41:35.952] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-25 16:41:35.964] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-25 16:41:35.967] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-25 16:41:35.993] [INFO ] [org.reflections.Reflections] Reflections took 25 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-25 16:41:36.003] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-25 16:41:36.004] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-25 16:41:36.004] [INFO ] [wb] 添加zbus插件
+[2016-08-25 16:41:36.141] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-25 16:41:36.448] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-25 16:41:36.449] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-25 16:41:36.460] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@7ed7125
+[2016-08-25 16:41:36.526] [INFO ] [org.reflections.Reflections] Reflections took 70 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-25 16:41:36.532] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-25 16:41:36.533] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-25 16:41:36.535] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-25 16:41:36.573] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-25 16:43:44.648] [INFO ] [org.zbus.mq.server.MqAdaptor] Clean: Session [remote=LocalBroker-Remote-f44ba0d2-03a8-4197-ade4-cbff5d238915, status=CLOSED]
+[2016-08-25 16:43:44.649] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Close initiated...
+[2016-08-25 16:43:44.663] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Closed.
+[2016-08-25 16:43:44.667] [INFO ] [/] Cleaning up Shiro Environment
+[2016-08-25 16:43:44.669] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,UNAVAILABLE}
+[2016-08-25 16:43:44.714] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-25 16:43:44.767] [INFO ] [/] Initializing Shiro environment
+[2016-08-25 16:43:44.767] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-25 16:43:44.854] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-25 16:43:44.855] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 86 ms.
+[2016-08-25 16:43:44.856] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-25 16:43:44.865] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-25 16:43:44.999] [INFO ] [org.reflections.Reflections] Reflections took 105 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-25 16:43:45.059] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-25 16:43:45.060] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-25 16:43:45.061] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-25 16:43:45.061] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-25 16:43:45.061] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-25 16:43:45.062] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-25 16:43:45.062] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-25 16:43:45.063] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-25 16:43:45.063] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-25 16:43:45.063] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-25 16:43:45.063] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-25 16:43:45.063] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-25 16:43:45.064] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-25 16:43:45.064] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-25 16:43:45.064] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-25 16:43:45.064] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-25 16:43:45.064] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-25 16:43:45.064] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-25 16:43:45.065] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-25 16:43:45.065] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-25 16:43:45.065] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-25 16:43:45.065] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-25 16:43:45.065] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-25 16:43:45.065] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-25 16:43:45.065] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-25 16:43:45.065] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-25 16:43:45.065] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-25 16:43:45.561] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-25 16:43:45.563] [INFO ] [wb] os.namemac os x
+[2016-08-25 16:43:45.563] [INFO ] [wb] os.archx86_64
+[2016-08-25 16:43:45.607] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-25 16:43:45.609] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-25 16:43:45.665] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-25 16:43:45.666] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-25 16:43:45.666] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-25 16:43:45.666] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-25 16:43:45.666] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-25 16:43:45.666] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-25 16:43:45.666] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-25 16:43:45.667] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-25 16:43:45.667] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-25 16:43:45.667] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-25 16:43:45.667] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-25 16:43:45.667] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-25 16:43:45.667] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-25 16:43:45.667] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-25 16:43:45.667] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-25 16:43:45.668] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-25 16:43:45.669] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-25 16:43:45.669] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-25 16:43:45.669] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-25 16:43:45.669] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-25 16:43:45.669] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-25 16:43:45.669] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-25 16:43:45.669] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-25 16:43:45.669] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-25 16:43:45.669] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-25 16:43:45.673] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-25 16:43:45.691] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-25 16:43:45.694] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-25 16:43:45.734] [INFO ] [org.reflections.Reflections] Reflections took 39 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-25 16:43:45.740] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-25 16:43:45.741] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-25 16:43:45.741] [INFO ] [wb] 添加zbus插件
+[2016-08-25 16:43:45.832] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-25 16:43:46.117] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-25 16:43:46.118] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-25 16:43:46.126] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@24fbd1bb
+[2016-08-25 16:43:46.150] [INFO ] [org.reflections.Reflections] Reflections took 28 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-25 16:43:46.152] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-25 16:43:46.152] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-25 16:43:46.152] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-25 16:43:46.170] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-25 16:44:31.810] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 17:46:32.157] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 17:46:32.250] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 17:46:33.463] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 17:46:36.617] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-25 17:46:40.567] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 18:01:06.392] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:01:06.458] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:01:10.121] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:01:21.961] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:01:34.718] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 18:08:09.963] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:08:10.163] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:08:10.911] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 18:08:37.844] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 18:14:25.005] [INFO ] [org.zbus.mq.server.MqAdaptor] Clean: Session [remote=LocalBroker-Remote-5865b754-3716-4d09-9e7c-ac6ca23bb78d, status=CLOSED]
+[2016-08-25 18:14:25.007] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Close initiated...
+[2016-08-25 18:14:25.026] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Closed.
+[2016-08-25 18:14:25.043] [INFO ] [/] Cleaning up Shiro Environment
+[2016-08-25 18:14:25.049] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,UNAVAILABLE}
+[2016-08-25 18:14:25.187] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-25 18:14:25.308] [INFO ] [/] Initializing Shiro environment
+[2016-08-25 18:14:25.309] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-25 18:14:25.461] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-25 18:14:25.464] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 150 ms.
+[2016-08-25 18:14:25.466] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-25 18:14:25.504] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-25 18:14:25.857] [INFO ] [org.reflections.Reflections] Reflections took 243 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-25 18:14:25.962] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-25 18:14:25.963] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-25 18:14:25.963] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-25 18:14:25.963] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-25 18:14:25.963] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-25 18:14:25.963] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-25 18:14:25.963] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-25 18:14:25.963] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-25 18:14:25.964] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-25 18:14:25.964] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-25 18:14:25.964] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-25 18:14:25.964] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-25 18:14:25.964] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-25 18:14:25.964] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-25 18:14:25.964] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-25 18:14:25.965] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-25 18:14:25.965] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-25 18:14:25.965] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-25 18:14:25.966] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-25 18:14:25.968] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-25 18:14:25.968] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-25 18:14:25.968] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-25 18:14:25.969] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-25 18:14:25.969] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-25 18:14:25.969] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-25 18:14:25.969] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-25 18:14:25.969] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-25 18:14:25.969] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-25 18:14:25.969] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-25 18:14:25.970] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-25 18:14:25.970] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-25 18:14:25.970] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-25 18:14:25.970] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-25 18:14:25.970] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-25 18:14:25.970] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-25 18:14:25.970] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-25 18:14:25.970] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-25 18:14:25.971] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-25 18:14:26.271] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-25 18:14:26.273] [INFO ] [wb] os.namemac os x
+[2016-08-25 18:14:26.273] [INFO ] [wb] os.archx86_64
+[2016-08-25 18:14:26.331] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-25 18:14:26.334] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-25 18:14:26.352] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-25 18:14:26.352] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-25 18:14:26.352] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-25 18:14:26.352] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-25 18:14:26.352] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-25 18:14:26.353] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-25 18:14:26.354] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-25 18:14:26.354] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-25 18:14:26.354] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-25 18:14:26.354] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-25 18:14:26.354] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-25 18:14:26.355] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-25 18:14:26.356] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-25 18:14:26.356] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-25 18:14:26.356] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-25 18:14:26.358] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-25 18:14:26.378] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-25 18:14:26.384] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-25 18:14:26.450] [INFO ] [org.reflections.Reflections] Reflections took 65 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-25 18:14:26.456] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-25 18:14:26.457] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-25 18:14:26.457] [INFO ] [wb] 添加zbus插件
+[2016-08-25 18:14:26.610] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-25 18:14:27.220] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-25 18:14:27.220] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-25 18:14:27.236] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@3ec26473
+[2016-08-25 18:14:27.308] [INFO ] [org.reflections.Reflections] Reflections took 83 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-25 18:14:27.312] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-25 18:14:27.312] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-25 18:14:27.312] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-25 18:14:27.341] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-25 18:14:40.545] [INFO ] [cn.edu.xjtu.ikcest.srnewsresult.SrNewsResultController] keyword=null
+[2016-08-25 18:14:41.061] [INFO ] [cn.edu.xjtu.ikcest.srtopic.SrTopicController] keyword=null
+[2016-08-25 18:14:43.680] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 18:14:57.850] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] uploadFile fileName=patent.xls
+[2016-08-25 18:14:57.855] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] uploadFile originalFileName=patent.xls
+[2016-08-25 18:14:59.907] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 18:15:00.029] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 18:20:04.487] [INFO ] [org.zbus.mq.server.MqAdaptor] Clean: Session [remote=LocalBroker-Remote-484aa810-341a-4096-8426-9ee661926f0a, status=CLOSED]
+[2016-08-25 18:20:04.488] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Close initiated...
+[2016-08-25 18:20:04.503] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Closed.
+[2016-08-25 18:20:04.510] [INFO ] [/] Cleaning up Shiro Environment
+[2016-08-25 18:20:04.512] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Stopped o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,UNAVAILABLE}
+[2016-08-25 18:20:04.565] [INFO ] [org.eclipse.jetty.webapp.StandardDescriptorProcessor] NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+[2016-08-25 18:20:04.625] [INFO ] [/] Initializing Shiro environment
+[2016-08-25 18:20:04.626] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Starting Shiro environment initialization.
+[2016-08-25 18:20:04.722] [INFO ] [org.apache.shiro.config.IniSecurityManagerFactory] Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+[2016-08-25 18:20:04.723] [INFO ] [org.apache.shiro.web.env.EnvironmentLoader] Shiro environment initialized in 95 ms.
+[2016-08-25 18:20:04.724] [WARN ] [org.eclipse.jetty.servlets.GzipFilter] GzipFilter is deprecated. Use GzipHandler
+[2016-08-25 18:20:04.732] [INFO ] [wb] scanPackage=com.wellbole,cn.edu.xjtu
+[2016-08-25 18:20:04.907] [INFO ] [org.reflections.Reflections] Reflections took 146 ms to scan 6 urls, producing 117 keys and 484 values [using 4 cores]
+[2016-08-25 18:20:04.967] [INFO ] [wb] routes.add("/uRWrittenBy",URWrittenByController.class);
+[2016-08-25 18:20:04.967] [INFO ] [wb] routes.add("/srNewsResult",SrNewsResultController.class);
+[2016-08-25 18:20:04.967] [INFO ] [wb] routes.add("/sys/error",ErrorController.class);
+[2016-08-25 18:20:04.967] [INFO ] [wb] routes.add("/sys/webix",WebixController.class);
+[2016-08-25 18:20:04.967] [INFO ] [wb] routes.add("/sys/setting",SettingController.class);
+[2016-08-25 18:20:04.967] [INFO ] [wb] routes.add("/sys/optlog",OptlogController.class);
+[2016-08-25 18:20:04.967] [INFO ] [wb] routes.add("/account",LoginController.class);
+[2016-08-25 18:20:04.968] [INFO ] [wb] routes.add("/uRUniversity",URUniversityController.class);
+[2016-08-25 18:20:04.968] [INFO ] [wb] routes.add("/oaRepo",OaRepoController.class);
+[2016-08-25 18:20:04.968] [INFO ] [wb] routes.add("/sys/file",WbFileController.class);
+[2016-08-25 18:20:04.968] [INFO ] [wb] routes.add("/sys/org",OrgController.class);
+[2016-08-25 18:20:04.968] [INFO ] [wb] routes.add("/app/article",ArticleController.class);
+[2016-08-25 18:20:04.968] [INFO ] [wb] routes.add("/sys/user",UserController.class);
+[2016-08-25 18:20:04.968] [INFO ] [wb] routes.add("/sys/urlRewriter",UrlRewriterController.class);
+[2016-08-25 18:20:04.968] [INFO ] [wb] routes.add("/sys/test",TestController.class);
+[2016-08-25 18:20:04.969] [INFO ] [wb] routes.add("/srPostTopic",SrPostTopicController.class);
+[2016-08-25 18:20:04.969] [INFO ] [wb] routes.add("/srTopicsResult",SrTopicsResultController.class);
+[2016-08-25 18:20:04.969] [INFO ] [wb] routes.add("/patentRepo",PatentRepoController.class);
+[2016-08-25 18:20:04.969] [INFO ] [wb] routes.add("/dissertationRepo",DissertationRepoController.class);
+[2016-08-25 18:20:04.969] [INFO ] [wb] routes.add("/sys/tag",TagController.class);
+[2016-08-25 18:20:04.970] [INFO ] [wb] routes.add("/kit",KitController.class);
+[2016-08-25 18:20:04.970] [INFO ] [wb] routes.add("/srPost",SrPostController.class);
+[2016-08-25 18:20:04.970] [INFO ] [wb] routes.add("/uRAffiliatedWith",URAffiliatedWithController.class);
+[2016-08-25 18:20:04.970] [INFO ] [wb] routes.add("/crawlerRepo",CrawlerRepoController.class);
+[2016-08-25 18:20:04.971] [INFO ] [wb] routes.add("/sys/version",VersionController.class);
+[2016-08-25 18:20:04.971] [INFO ] [wb] routes.add("/sys/dict",DictController.class);
+[2016-08-25 18:20:04.971] [INFO ] [wb] routes.add("/sys/role",RoleController.class);
+[2016-08-25 18:20:04.971] [INFO ] [wb] routes.add("/srTopic",SrTopicController.class);
+[2016-08-25 18:20:04.971] [INFO ] [wb] routes.add("/uRAuthor",URAuthorController.class);
+[2016-08-25 18:20:04.971] [INFO ] [wb] routes.add("/sys/message",MessageController.class);
+[2016-08-25 18:20:04.973] [INFO ] [wb] routes.add("/sys/dicttype",DictTypeController.class);
+[2016-08-25 18:20:04.973] [INFO ] [wb] routes.add("/uRLiterature",URLiteratureController.class);
+[2016-08-25 18:20:04.974] [INFO ] [wb] routes.add("/confRepo",ConfRepoController.class);
+[2016-08-25 18:20:04.974] [INFO ] [wb] routes.add("/sys/resource",ResourceController.class);
+[2016-08-25 18:20:04.974] [INFO ] [wb] routes.add("/index",IndexController.class);
+[2016-08-25 18:20:04.974] [INFO ] [wb] routes.add("/ebookRepo",EbookRepoController.class);
+[2016-08-25 18:20:04.974] [INFO ] [wb] routes.add("/uRConference",URConferenceController.class);
+[2016-08-25 18:20:04.974] [INFO ] [wb] routes.add("/appArticle",AppArticleController.class);
+[2016-08-25 18:20:05.260] [INFO ] [wb] 添加EhCachePlugin插件
+[2016-08-25 18:20:05.262] [INFO ] [wb] os.namemac os x
+[2016-08-25 18:20:05.262] [INFO ] [wb] os.archx86_64
+[2016-08-25 18:20:05.315] [INFO ] [wb] 添加HikaricpPlugin插件(config=sample[main])
+[2016-08-25 18:20:05.318] [INFO ] [wb] 添加ActiveRecordPlugin插件(config=sample[main])
+[2016-08-25 18:20:05.339] [INFO ] [wb] arp.addMapping("app_article",AppArticle.class);[config=main]
+[2016-08-25 18:20:05.339] [INFO ] [wb] arp.addMapping("dissertation_repo",DissertationRepo.class);[config=main]
+[2016-08-25 18:20:05.339] [INFO ] [wb] arp.addMapping("sr_news_result",SrNewsResult.class);[config=main]
+[2016-08-25 18:20:05.339] [INFO ] [wb] arp.addMapping("sys_version",Version.class);[config=main]
+[2016-08-25 18:20:05.339] [INFO ] [wb] arp.addMapping("u_r_literature",URLiterature.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("sys_tag_obj",TagObj.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("sr_post_topic",SrPostTopic.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("sys_setting",Setting.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("u_r_university",URUniversity.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("sys_org",Org.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("sys_message",Message.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("app_article",Article.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("u_r_author",URAuthor.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("u_r_conference",URConference.class);[config=main]
+[2016-08-25 18:20:05.340] [INFO ] [wb] arp.addMapping("sys_file",WbFile.class);[config=main]
+[2016-08-25 18:20:05.341] [INFO ] [wb] arp.addMapping("sys_role",Role.class);[config=main]
+[2016-08-25 18:20:05.341] [INFO ] [wb] arp.addMapping("sys_user_role",UserRole.class);[config=main]
+[2016-08-25 18:20:05.341] [INFO ] [wb] arp.addMapping("u_r_affiliated_with",URAffiliatedWith.class);[config=main]
+[2016-08-25 18:20:05.342] [INFO ] [wb] arp.addMapping("sys_optlog",Optlog.class);[config=main]
+[2016-08-25 18:20:05.342] [INFO ] [wb] arp.addMapping("sys_role_welcome",RoleWelcome.class);[config=main]
+[2016-08-25 18:20:05.342] [INFO ] [wb] arp.addMapping("conf_repo",ConfRepo.class);[config=main]
+[2016-08-25 18:20:05.342] [INFO ] [wb] arp.addMapping("sys_dict",Dict.class);[config=main]
+[2016-08-25 18:20:05.342] [INFO ] [wb] arp.addMapping("sys_tag",Tag.class);[config=main]
+[2016-08-25 18:20:05.342] [INFO ] [wb] arp.addMapping("oa_repo",OaRepo.class);[config=main]
+[2016-08-25 18:20:05.342] [INFO ] [wb] arp.addMapping("sys_dict_type",DictType.class);[config=main]
+[2016-08-25 18:20:05.342] [INFO ] [wb] arp.addMapping("ebook_repo",EbookRepo.class);[config=main]
+[2016-08-25 18:20:05.343] [INFO ] [wb] arp.addMapping("sr_post",SrPost.class);[config=main]
+[2016-08-25 18:20:05.343] [INFO ] [wb] arp.addMapping("u_r_written_by",URWrittenBy.class);[config=main]
+[2016-08-25 18:20:05.343] [INFO ] [wb] arp.addMapping("patent_repo",PatentRepo.class);[config=main]
+[2016-08-25 18:20:05.343] [INFO ] [wb] arp.addMapping("sr_topics_result",SrTopicsResult.class);[config=main]
+[2016-08-25 18:20:05.343] [INFO ] [wb] arp.addMapping("sys_user",User.class);[config=main]
+[2016-08-25 18:20:05.343] [INFO ] [wb] arp.addMapping("sys_resource",Resource.class);[config=main]
+[2016-08-25 18:20:05.343] [INFO ] [wb] arp.addMapping("sr_topic",SrTopic.class);[config=main]
+[2016-08-25 18:20:05.343] [INFO ] [wb] arp.addMapping("sys_role_resource",RoleResource.class);[config=main]
+[2016-08-25 18:20:05.343] [INFO ] [wb] arp.addMapping("crawler_repo",CrawlerRepo.class);[config=main]
+[2016-08-25 18:20:05.345] [INFO ] [wb] 添加ShiroPlugin插件
+[2016-08-25 18:20:05.363] [INFO ] [org.zbus.mq.server.MqAdaptor] Loading DiskQueues...
+[2016-08-25 18:20:05.369] [INFO ] [ZbusPlugin] 创建broker成功(brokerAddress=jvm)
+[2016-08-25 18:20:05.411] [INFO ] [org.reflections.Reflections] Reflections took 40 ms to scan 7 urls, producing 123 keys and 512 values [using 4 cores]
+[2016-08-25 18:20:05.417] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent,handler=com.wellbole.web.sys.user.OrgEventListener )
+[2016-08-25 18:20:05.419] [INFO ] [ZbusPlugin] 通过注解自动加载Event(Topic)消息处理器( mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent,handler=com.wellbole.web.sys.org.SettingEventListener )
+[2016-08-25 18:20:05.419] [INFO ] [wb] 添加zbus插件
+[2016-08-25 18:20:05.536] [INFO ] [com.zaxxer.hikari.HikariDataSource] sample[main] - Started.
+[2016-08-25 18:20:05.908] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.setting.SettingEvent)
+[2016-08-25 18:20:05.910] [INFO ] [ZbusPlugin] 创建Topic消费者成功 (mq=_mq_event_,topic=com.wellbole.web.sys.org.OrgEvent)
+[2016-08-25 18:20:05.931] [INFO ] [org.zbus.mq.server.MqAdaptor] MQ Created: org.zbus.mq.server.PubSub@26c4f7de
+[2016-08-25 18:20:06.015] [INFO ] [org.reflections.Reflections] Reflections took 99 ms to scan 7 urls, producing 117 keys and 494 values [using 4 cores]
+[2016-08-25 18:20:06.022] [INFO ] [wb] 添加ShiroInterceptor拦截器
+[2016-08-25 18:20:06.023] [INFO ] [wb] 添加上下文自动设定处理器，参数值为：base
+[2016-08-25 18:20:06.023] [INFO ] [wb] 添加后缀名转换处理器，参数值为：.do
+[2016-08-25 18:20:06.045] [INFO ] [org.eclipse.jetty.server.handler.ContextHandler] Started o.e.j.w.WebAppContext@39dcf4b0{/,file:///Users/cc/javawoworkspace/sample/WebRoot/,AVAILABLE}
+[2016-08-25 18:20:11.038] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:20:11.134] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:20:11.752] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 18:20:11.835] [INFO ] [cn.edu.xjtu.ikcest.patentrepo.PatentRepoController] keyword=null
+[2016-08-25 18:20:54.519] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:20:54.605] [INFO ] [cn.edu.xjtu.ikcest.ebookrepo.EbookRepoController] keyword=null
+[2016-08-25 18:21:07.411] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null
+[2016-08-25 18:21:08.225] [INFO ] [cn.edu.xjtu.ikcest.confrepo.ConfRepoController] keyword=null
+[2016-08-25 18:21:10.875] [INFO ] [cn.edu.xjtu.ikcest.dissertationrepo.DissertationRepoController] keyword=null

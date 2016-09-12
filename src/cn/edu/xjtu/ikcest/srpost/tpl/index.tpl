@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("srPost_app.js"){}
+        include("srPost_logic.js"){}
+        include("srPost_layout.js"){}
+        include("srPost_form.js"){}
+        include("srPost_import.js"){}
+    }
+%>

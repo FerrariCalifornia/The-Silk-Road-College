@@ -1,0 +1,7 @@
+[2016-07-31 00:59:09.822] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 1h21m11s810ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-07-31 01:26:33.491] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 27m23s668ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-07-31 01:53:20.108] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 26m46s618ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-07-31 02:20:44.087] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 27m23s979ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-07-31 03:14:25.010] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 53m40s923ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-07-31 05:02:31.243] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 1h48m6s233ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-07-31 06:45:35.143] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 1h43m3s900ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).

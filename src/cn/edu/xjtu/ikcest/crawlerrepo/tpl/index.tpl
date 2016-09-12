@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("crawlerRepo_app.js"){}
+        include("crawlerRepo_logic.js"){}
+        include("crawlerRepo_layout.js"){}
+        include("crawlerRepo_form.js"){}
+        include("crawlerRepo_import.js"){}
+    }
+%>

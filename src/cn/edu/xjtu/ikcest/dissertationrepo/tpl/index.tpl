@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("dissertationRepo_app.js"){}
+        include("dissertationRepo_logic.js"){}
+        include("dissertationRepo_layout.js"){}
+        include("dissertationRepo_form.js"){}
+        include("dissertationRepo_import.js"){}
+    }
+%>

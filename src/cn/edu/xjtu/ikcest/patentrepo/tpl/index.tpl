@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("patentRepo_app.js"){}
+        include("patentRepo_logic.js"){}
+        include("patentRepo_layout.js"){}
+        include("patentRepo_form.js"){}
+        include("patentRepo_import.js"){}
+    }
+%>

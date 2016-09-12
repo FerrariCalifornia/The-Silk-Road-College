@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("confRepo_app.js"){}
+        include("confRepo_logic.js"){}
+        include("confRepo_layout.js"){}
+        include("confRepo_form.js"){}
+        include("confRepo_import.js"){}
+    }
+%>

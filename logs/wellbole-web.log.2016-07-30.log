@@ -1,0 +1,5 @@
+[2016-08-01 09:07:33.838] [INFO ] [com.wellbole.web.core.onlinecounter.OnlineCounterListener] 有用户登录，在线人数加1
+[2016-08-01 09:07:39.012] [WARN ] [com.zaxxer.hikari.pool.HikariPool] 1d2h22m3s869ms - Thread starvation or clock leap detected (housekeeper delta=sample[main]).
+[2016-08-01 09:09:19.623] [INFO ] [org.zbus.mq.server.MqAdaptor] Clean: Session [remote=LocalBroker-Remote-a02ae7d6-f08c-417d-8c19-7ac968b59760, status=CLOSED]
+[2016-08-01 09:09:19.624] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Close initiated...
+[2016-08-01 09:09:19.632] [INFO ] [com.zaxxer.hikari.pool.HikariPool] sample[main] - Closed.

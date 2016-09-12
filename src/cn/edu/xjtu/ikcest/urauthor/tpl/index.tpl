@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("uRAuthor_app.js"){}
+        include("uRAuthor_logic.js"){}
+        include("uRAuthor_layout.js"){}
+        include("uRAuthor_form.js"){}
+        include("uRAuthor_import.js"){}
+    }
+%>

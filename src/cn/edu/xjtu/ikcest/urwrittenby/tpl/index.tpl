@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("uRWrittenBy_app.js"){}
+        include("uRWrittenBy_logic.js"){}
+        include("uRWrittenBy_layout.js"){}
+        include("uRWrittenBy_form.js"){}
+        include("uRWrittenBy_import.js"){}
+    }
+%>

@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("srTopicsResult_app.js"){}
+        include("srTopicsResult_logic.js"){}
+        include("srTopicsResult_layout.js"){}
+        include("srTopicsResult_form.js"){}
+        include("srTopicsResult_import.js"){}
+    }
+%>

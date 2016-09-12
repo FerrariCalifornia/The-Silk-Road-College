@@ -1,0 +1,9 @@
+<%
+    layout("/templates/inc/layout.html"){
+        include("ebookRepo_app.js"){}
+        include("ebookRepo_logic.js"){}
+        include("ebookRepo_layout.js"){}
+        include("ebookRepo_form.js"){}
+        include("ebookRepo_import.js"){}
+    }
+%>
