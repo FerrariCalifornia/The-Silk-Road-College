@@ -1,32 +1,300 @@
-Table: app_blog	Remarks: 博客
------------+------------------+------+-----+--------------------------------------+---------
- Field     | Type             | Null | Key | Default                              | Remarks 
------------+------------------+------+-----+--------------------------------------+---------
- id        | bigserial(19)    | NO   | PRI | nextval('app_blog_id_seq'::regclass) | id      
- title     | varchar(255)     | YES  |     |                                      | 标题      
- content   | text(2147483647) | YES  |     |                                      | 内容      
- post_at   | timestamp(29,6)  | YES  |     |                                      | 发布时间    
- post_by   | varchar(64)      | YES  |     |                                      | 发布人     
- type_code | varchar(16)      | YES  |     |                                      |         
- author    | varchar(255)     | YES  |     |                                      |         
------------+------------------+------+-----+--------------------------------------+---------
+Table: app_article	Remarks: app_article
+-----------+---------------+------+-----+-------------------+---------
+ Field     | Type          | Null | Key | Default           | Remarks 
+-----------+---------------+------+-----+-------------------+---------
+ id        | BIGINT(19)    | NO   | PRI |                   | id      
+ title     | VARCHAR(255)  | YES  |     |                   | 标题      
+ content   | TEXT(65535)   | YES  |     |                   | 内容      
+ post_at   | TIMESTAMP(19) | YES  |     | CURRENT_TIMESTAMP | 发布时间    
+ post_by   | VARCHAR(64)   | YES  |     |                   | 发布人     
+ type_code | VARCHAR(16)   | YES  |     |                   |         
+-----------+---------------+------+-----+-------------------+---------
 
-Table: app_music	Remarks: music list
---------+---------------+------+-----+----------------------------------------+---------
- Field  | Type          | Null | Key | Default                                | Remarks 
---------+---------------+------+-----+----------------------------------------+---------
- id     | bigserial(19) | NO   | PRI | nextval('app_music_id_seq'::regclass)  | id      
- name   | varchar(255)  | YES  |     |                                        | name    
- author | varchar(255)  | YES  |     |                                        | Author  
- num    | bigserial(19) | NO   |     | nextval('app_music_num_seq'::regclass) |         
---------+---------------+------+-----+----------------------------------------+---------
+Table: conf_repo	Remarks: conf_repo
+---------------------+--------------+------+-----+---------+---------
+ Field               | Type         | Null | Key | Default | Remarks 
+---------------------+--------------+------+-----+---------+---------
+ id                  | VARCHAR(255) | NO   | PRI |         | id      
+ conference_name     | VARCHAR(255) | YES  |     |         | 会议名     
+ organizer           | VARCHAR(64)  | YES  |     |         | 组织者     
+ language            | VARCHAR(64)  | YES  |     |         | 语言      
+ eligibility         | VARCHAR(64)  | YES  |     |         | 资格      
+ start_date          | VARCHAR(64)  | YES  |     |         | 起始日期    
+ end_date            | VARCHAR(64)  | YES  |     |         | 截止日期    
+ location            | VARCHAR(64)  | YES  |     |         | 地点      
+ country_region      | VARCHAR(64)  | YES  |     |         | 国家地区    
+ manuscript_last_day | VARCHAR(64)  | YES  |     |         | 最新手稿    
+ abstract_last_day   | VARCHAR(64)  | YES  |     |         | 最新摘要    
+ other_contacts      | VARCHAR(255) | YES  |     |         | 其他联系人   
+ broad_theme         | VARCHAR(64)  | YES  |     |         | 大主题     
+ classify            | VARCHAR(64)  | YES  |     |         | 分类      
+ subject             | VARCHAR(64)  | YES  |     |         | 主题      
+ range_              | VARCHAR(64)  | YES  |     |         | 范围      
+ publication_name    | VARCHAR(64)  | YES  |     |         | 出版名     
+ url                 | VARCHAR(64)  | YES  |     |         | url地址   
+ update_             | VARCHAR(64)  | YES  |     |         | 更新      
+ include_num         | VARCHAR(64)  | YES  |     |         | 包含数量    
+ db                  | VARCHAR(64)  | YES  |     |         | db      
+ important_date      | VARCHAR(64)  | YES  |     |         | 重要日期    
+ created_at          | BIGINT(19)   | NO   |     |         | 创建时间    
+---------------------+--------------+------+-----+---------+---------
 
-Table: app_school	Remarks: school
--------+---------------+------+-----+----------------------------------------+---------
- Field | Type          | Null | Key | Default                                | Remarks 
--------+---------------+------+-----+----------------------------------------+---------
- id    | bigserial(19) | NO   | PRI | nextval('app_school_id_seq'::regclass) | id
+Table: crawler_repo	Remarks: crawler_repo
+------------+--------------+------+-----+---------+---------
+ Field      | Type         | Null | Key | Default | Remarks 
+------------+--------------+------+-----+---------+---------
+ id         | VARCHAR(255) | NO   | PRI |         | id
      
- name  | varchar(255)  | YES  |     |                                        | name    
--------+---------------+------+-----+----------------------------------------+---------
+ title      | VARCHAR(64)  | YES  |     |         | 标题	     
+ content    | TEXT(65535)  | YES  |     |         | 内容      
+ info_type  | VARCHAR(64)  | YES  |     |         | 信息类型    
+ language   | VARCHAR(64)  | YES  |     |         | 语言      
+ url        | VARCHAR(255) | YES  |     |         | url地址   
+ site_name  | VARCHAR(64)  | YES  |     |         | 网站名称    
+ image_url  | VARCHAR(255) | YES  |     |         | 图片url地址 
+ post_at    | DATETIME(19) | YES  |     |         | 发布时间    
+ created_at | BIGINT(19)   | NO   |     |         | 创建时间    
+------------+--------------+------+-----+---------+---------
+
+Table: dissertation_repo	Remarks: dissertation_repo
+---------------------+---------------+------+-----+---------+---------
+ Field               | Type          | Null | Key | Default | Remarks 
+---------------------+---------------+------+-----+---------+---------
+ id                  | VARCHAR(255)  | NO   | PRI |         | id      
+ title               | VARCHAR(255)  | YES  |     |         | 标题      
+ title_spelling      | VARCHAR(255)  | YES  |     |         | 标题拼写    
+ name                | VARCHAR(64)   | YES  |     |         | 名称      
+ name_spelling       | VARCHAR(64)   | YES  |     |         | 名称拼写    
+ student_id          | VARCHAR(64)   | YES  |     |         | 学生id    
+ university          | VARCHAR(64)   | YES  |     |         | 大学      
+ school              | VARCHAR(64)   | YES  |     |         | 学校      
+ discipline          | VARCHAR(64)   | YES  |     |         | 学科      
+ major               | VARCHAR(64)   | YES  |     |         | 专业      
+ degree              | VARCHAR(64)   | YES  |     |         | 学位      
+ degree_type         | VARCHAR(64)   | YES  |     |         | 学位类型    
+ oral_defense_date   | DATETIME(19)  | YES  |     |         | oral_defense_date
+ secret_level        | VARCHAR(64)   | YES  |     |         | 密码级别    
+ submitting_date     | VARCHAR(64)   | YES  |     |         | 提交日期    
+ foreign_title       | VARCHAR(255)  | YES  |     |         | 外文名     
+ mentor_name         | VARCHAR(64)   | YES  |     |         | 导师名     
+ mentor_work_unit    | VARCHAR(64)   | YES  |     |         | 导师工作单位  
+ chinese_keywords    | VARCHAR(64)   | YES  |     |         | 中文关键字   
+ english_keywords    | VARCHAR(64)   | YES  |     |         | 英文关键字   
+ total_pages         | INT(10)       | YES  |     |         | 总页数     
+ num_of_bibliography | INT(10)       | YES  |     |         | 参考文献数目  
+ chinese_abstract    | VARCHAR(1024) | YES  |     |         | 中文摘要    
+ english_abstract    | VARCHAR(1024) | YES  |     |         | 英文摘要    
+ nationality         | VARCHAR(64)   | YES  |     |         | 国籍      
+ discipline_code     | VARCHAR(64)   | YES  |     |         | 学科代码    
+ last_updated        | DATETIME(19)  | YES  |     |         | 最后更新    
+ call_num            | VARCHAR(64)   | YES  |     |         | 图书编目号码  
+ full_text           | VARCHAR(64)   | YES  |     |         | 全文      
+---------------------+---------------+------+-----+---------+---------
+
+Table: ebook_repo	Remarks: ebook_repo
+-----------------------+--------------+------+-----+---------+---------
+ Field                 | Type         | Null | Key | Default | Remarks 
+-----------------------+--------------+------+-----+---------+---------
+ id                    | VARCHAR(255) | NO   | PRI |         | id      
+ isbn                  | VARCHAR(64)  | YES  |     |         | ISBN    
+ eisbn                 | VARCHAR(64)  | YES  |     |         | ESIBN   
+ author                | VARCHAR(255) | YES  |     |         | 作者      
+ title                 | VARCHAR(255) | YES  |     |         | 标题      
+ page_counter          | VARCHAR(64)  | YES  |     |         | 页数      
+ place_published       | VARCHAR(64)  | YES  |     |         | 出版地点    
+ publisher             | VARCHAR(64)  | YES  |     |         | 出版人     
+ year                  | INT(10)      | YES  |     |         | 年份      
+ series_identification | VARCHAR(64)  | YES  |     |         | 序列身份    
+ series_name           | VARCHAR(64)  | YES  |     |         | 序列名     
+ series_id             | VARCHAR(64)  | YES  |     |         | 序列号     
+ url                   | VARCHAR(255) | YES  |     |         | URL地址   
+ img_url               | VARCHAR(255) | YES  |     |         | 图片URL地址 
+ summary               | TEXT(65535)  | YES  |     |         | 梗概      
+ keys_or_subjects      | VARCHAR(255) | YES  |     |         | 关键字或主题  
+ language              | VARCHAR(64)  | YES  |     |         | 语言      
+ class_num             | VARCHAR(64)  | YES  |     |         | class number
+ nation                | VARCHAR(64)  | YES  |     |         | 国家      
+-----------------------+--------------+------+-----+---------+---------
+
+Table: patent_repo	Remarks: patent_repo
+------------------------+--------------+------+-----+---------+---------
+ Field                  | Type         | Null | Key | Default | Remarks 
+------------------------+--------------+------+-----+---------+---------
+ id                     | VARCHAR(255) | NO   | PRI |         | id      
+ patent_number          | VARCHAR(64)  | YES  |     |         | 专利号     
+ title                  | VARCHAR(255) | YES  |     |         | 标题      
+ inventor               | VARCHAR(64)  | YES  |     |         | 发明者     
+ assignee_name_or_code  | VARCHAR(64)  | YES  |     |         | 代理名或代理号 
+ pan                    | VARCHAR(255) | YES  |     |         | pan     
+ summary                | VARCHAR(255) | YES  |     |         | 梗概      
+ extension_summary      | VARCHAR(255) | YES  |     |         | 摘要延伸    
+ euivalent_summary      | VARCHAR(255) | YES  |     |         | 等价摘要    
+ class_code             | VARCHAR(64)  | YES  |     |         | 分类号     
+ manual_code            | VARCHAR(64)  | YES  |     |         | 操作号     
+ ipc                    | VARCHAR(64)  | YES  |     |         | 信息处理中心  
+ patent_details         | VARCHAR(255) | YES  |     |         | 专利细节    
+ app_details            | VARCHAR(64)  | YES  |     |         | APP细节   
+ further_app_details    | VARCHAR(64)  | YES  |     |         | 未来APP细节 
+ priority_app_info_date | VARCHAR(64)  | YES  |     |         | priority_app_info_date
+ designated_states      | VARCHAR(64)  | YES  |     |         | designated_states
+ field_of_search        | VARCHAR(64)  | YES  |     |         | 搜索领域    
+ citing_patents         | VARCHAR(255) | YES  |     |         | 专利引用    
+ citing_reference       | VARCHAR(255) | YES  |     |         | 参考文献    
+ dn                     | VARCHAR(64)  | YES  |     |         | dn      
+ mn                     | VARCHAR(64)  | YES  |     |         | mn      
+ ring_index_nums        | VARCHAR(64)  | YES  |     |         | 环系索引号   
+ cited_inventor         | VARCHAR(255) | YES  |     |         | 被引用发明人  
+ derwent_registry_nums  | VARCHAR(255) | YES  |     |         | 德温特注册号  
+------------------------+--------------+------+-----+---------+---------
+
+Table: sr_news_result	Remarks: sr_news_result
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ id            | VARCHAR(255) | NO   | PRI |         | id      
+ title         | VARCHAR(255) | YES  |     |         | 标题      
+ site_name     | VARCHAR(255) | YES  |     |         | 网站名     
+ url           | VARCHAR(255) | YES  |     |         | URL     
+ post_time     | VARCHAR(64)  | YES  |     |         | 发布时间    
+ related_topic | VARCHAR(255) | YES  |     |         | 相关主题    
+---------------+--------------+------+-----+---------+---------
+
+Table: sr_post	Remarks: sr_post
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ id            | VARCHAR(255) | NO   | PRI |         | id      
+ url           | VARCHAR(255) | YES  |     |         | URL     
+ site_name     | VARCHAR(64)  | YES  |     |         | 网站名     
+ data_type     | TINYINT(3)   | YES  |     |         | 数据类型    
+ title         | VARCHAR(255) | YES  |     |         | 标题      
+ content       | TEXT(65535)  | YES  |     |         | 内容      
+ post_time     | DATETIME(19) | YES  |     |         | 发布时间    
+ language_type | INT(10)      | YES  |     |         | 语言类型    
+---------------+--------------+------+-----+---------+---------
+
+Table: sr_post_topic	Remarks: sr_post_topic
+------------+--------------+------+-----+---------+---------
+ Field      | Type         | Null | Key | Default | Remarks 
+------------+--------------+------+-----+---------+---------
+ post_id    | VARCHAR(255) | NO   | PRI |         | 帖子id    
+ topic_id   | INT(10)      | NO   | PRI |         | 主题id    
+ similarity | DOUBLE(22)   | YES  |     |         | 相似度     
+ post_time  | DATETIME(19) | YES  |     |         | 发布时间    
+------------+--------------+------+-----+---------+---------
+
+Table: sr_topic	Remarks: sr_topic
+----------------+--------------+------+-----+---------+---------
+ Field          | Type         | Null | Key | Default | Remarks 
+----------------+--------------+------+-----+---------+---------
+ topic_id       | INT(10)      | NO   | PRI |         | 主题id    
+ topic_name     | CHAR(255)    | YES  |     |         | 主题名     
+ topic_keywords | CHAR(255)    | YES  |     |         | 主题关键字   
+ language_type  | INT(10)      | YES  |     |         | 语言类型    
+ summary        | TEXT(65535)  | YES  |     |         | 梗概      
+ doc_num        | INT(10)      | YES  |     |         | 号码      
+ duration_time  | INT(10)      | YES  |     |         | 持续时间    
+ median_time    | VARCHAR(255) | YES  |     |         | median time
+ mean_time      | VARCHAR(255) | YES  |     |         | 平均时间    
+ sen            | FLOAT(12)    | YES  |     |         | sen     
+----------------+--------------+------+-----+---------+---------
+
+Table: sr_topics_result	Remarks: sr_topics_result
+----------+--------------+------+-----+---------+---------
+ Field    | Type         | Null | Key | Default | Remarks 
+----------+--------------+------+-----+---------+---------
+ id       | VARCHAR(255) | NO   | PRI |         |         
+ keywords | VARCHAR(255) | YES  |     |         |         
+ summary  | VARCHAR(255) | YES  |     |         |         
+ doc_num  | INT(10)      | YES  |     |         |         
+----------+--------------+------+-----+---------+---------
+
+Table: u_r_affiliated_with	Remarks: u_r_affiliated_with
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ author_id     | VARCHAR(255) | NO   | PRI |         | 作者id    
+ university_id | VARCHAR(255) | NO   | PRI |         | 大学id    
+---------------+--------------+------+-----+---------+---------
+
+Table: u_r_author	Remarks: u_r_author
+-------------+--------------+------+-----+---------+---------
+ Field       | Type         | Null | Key | Default | Remarks 
+-------------+--------------+------+-----+---------+---------
+ id          | VARCHAR(255) | NO   | PRI |         | id      
+ name        | VARCHAR(255) | YES  |     |         | 名称      
+ alias       | VARCHAR(255) | YES  |     |         | 别名      
+ affiliation | VARCHAR(255) | YES  |     |         | 隶属机构    
+-------------+--------------+------+-----+---------+---------
+
+Table: u_r_conference	Remarks: u_r_conference
+----------+--------------+------+-----+---------+---------
+ Field    | Type         | Null | Key | Default | Remarks 
+----------+--------------+------+-----+---------+---------
+ name     | VARCHAR(255) | NO   | PRI |         | 名称      
+ alias    | VARCHAR(255) | YES  |     |         | 别名      
+ date     | DATETIME(19) | YES  |     |         | 日期      
+ location | VARCHAR(255) | YES  |     |         | 地点      
+ code     | VARCHAR(255) | YES  |     |         | 代码      
+----------+--------------+------+-----+---------+---------
+
+Table: u_r_literature	Remarks: u_r_literature
+--------------------------+---------------+------+-----+---------+---------
+ Field                    | Type          | Null | Key | Default | Remarks 
+--------------------------+---------------+------+-----+---------+---------
+ id                       | VARCHAR(255)  | NO   | PRI |         | id      
+ title                    | VARCHAR(255)  | YES  |     |         | 标题      
+ year                     | INT(10)       | YES  |     |         | 年份      
+ orginal_publication      | VARCHAR(255)  | YES  |     |         | 原出版社    
+ volume                   | VARCHAR(64)   | YES  |     |         | 卷       
+ issue                    | VARCHAR(64)   | YES  |     |         | 期       
+ paper_id                 | INT(10)       | YES  |     |         | 论文id    
+ start_page               | INT(10)       | YES  |     |         | 起始页     
+ end_page                 | INT(10)       | YES  |     |         | 结束页     
+ page_counter             | INT(10)       | YES  |     |         | 页码数     
+ citing_paper             | VARCHAR(255)  | YES  |     |         | 引用      
+ doi                      | VARCHAR(255)  | YES  |     |         | dos     
+ url                      | VARCHAR(255)  | YES  |     |         | url     
+ summary                  | VARCHAR(1024) | YES  |     |         | 梗概      
+ author_keyword           | VARCHAR(255)  | YES  |     |         | 作者关键词   
+ index_keyword            | VARCHAR(255)  | YES  |     |         | 索引关键词   
+ analysis_serial_number   | VARCHAR(255)  | YES  |     |         | 分析序列号   
+ cas                      | VARCHAR(255)  | YES  |     |         | cas     
+ brand                    | VARCHAR(255)  | YES  |     |         | 商标      
+ manufacturer             | VARCHAR(255)  | YES  |     |         | 制造商     
+ funding_info             | VARCHAR(255)  | YES  |     |         | 资助信息    
+ references               | VARCHAR(255)  | YES  |     |         | 参考文献    
+ postal_addr              | VARCHAR(255)  | YES  |     |         | 邮寄地址    
+ editor                   | VARCHAR(255)  | YES  |     |         | 编辑      
+ funding_agent            | VARCHAR(255)  | YES  |     |         | 资助机构    
+ publisher                | VARCHAR(255)  | YES  |     |         | 出版商     
+ conference_name          | VARCHAR(255)  | YES  |     |         | 会议名称    
+ issn                     | VARCHAR(255)  | YES  |     |         | issn    
+ isbn                     | VARCHAR(255)  | YES  |     |         | isbn    
+ coden                    | VARCHAR(255)  | YES  |     |         | codes   
+ pubmed_id                | VARCHAR(255)  | YES  |     |         | pubmed id
+ language                 | VARCHAR(255)  | YES  |     |         | 语言      
+ orginal_publication_abbr | VARCHAR(255)  | YES  |     |         | 原出版社地址  
+ paper_type               | VARCHAR(255)  | YES  |     |         | 论文类型    
+ source_of_publication    | VARCHAR(255)  | YES  |     |         | 出版源     
+ eid                      | VARCHAR(64)   | YES  |     |         | eid     
+ u_id                     | VARCHAR(255)  | NO   |     |         | u id    
+--------------------------+---------------+------+-----+---------+---------
+
+Table: u_r_university	Remarks: u_r_university
+-------+--------------+------+-----+---------+---------
+ Field | Type         | Null | Key | Default | Remarks 
+-------+--------------+------+-----+---------+---------
+ id    | VARCHAR(255) | NO   | PRI |         | id      
+ name  | VARCHAR(255) | YES  |     |         | 名称      
+ alias | VARCHAR(255) | YES  |     |         | 别名      
+-------+--------------+------+-----+---------+---------
+
+Table: u_r_written_by	Remarks: u_r_written_by
+---------------+--------------+------+-----+---------+---------
+ Field         | Type         | Null | Key | Default | Remarks 
+---------------+--------------+------+-----+---------+---------
+ literature_id | VARCHAR(255) | NO   | PRI |         | 文献id    
+ author_id     | VARCHAR(255) | NO   | PRI |         | 作者id    
+---------------+--------------+------+-----+---------+---------
 

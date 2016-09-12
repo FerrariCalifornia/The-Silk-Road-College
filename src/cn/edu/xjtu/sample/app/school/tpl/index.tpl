@@ -1,9 +1,0 @@
-<%
-    layout("/templates/inc/layout.html"){
-        include("school_app.js"){}
-        include("school_logic.js"){}
-        include("school_layout.js"){}
-        include("school_form.js"){}
-        include("school_import.js"){}
-    }
-%>
