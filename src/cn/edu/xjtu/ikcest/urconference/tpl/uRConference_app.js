@@ -8,7 +8,7 @@ wellbole.URConferenceApp = webix.proto({
 		this.defaults.deleteUrl = "/uRConference/delete.do";
 		//名称定义
 		this.defaults.name = "URConference";
-		this.defaults.showName = "u_r_conference";
+		this.defaults.showName = "会议";
 		this.defaults.mainTableId = "uRConferenceMainTable";
 		this.defaults.formId = "uRConferenceForm";
 		this.defaults.formWindowHeaderId = "uRConferenceFormWindowHeader";

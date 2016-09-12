@@ -3,7 +3,7 @@ uRUniversityApp.form={
         id: "uRUniversityForm",
         view:"form", 
         scroll:false,
-        width:460,
+        width:760,
         elements:[
        { id:"name", name:"name", view:"text", label:"名称"}
         ,{ id:"alias", name:"alias", view:"text", label:"别名"}
@@ -22,7 +22,7 @@ uRUniversityApp.formWindowHeader={id:"uRUniversityFormWindowHeader", view:"templ
 uRUniversityApp.scrollFormLayout={
         rows:[
              
-              {view:"scrollview",  height:400, width:480,scroll:"y",  body: uRUniversityApp.form}
+              {view:"scrollview",  height:400, width:780,scroll:"y",  body: uRUniversityApp.form}
               ,
               {
                   margin : 5,
@@ -43,7 +43,7 @@ uRUniversityApp.formWindow = {
     id:"uRUniversityFormWindow",
     view:"window",
     modal:true,
-    width:520,
+    width:820,
     position:"center",
     //body:uRUniversityApp.form,
     body:uRUniversityApp.scrollFormLayout,

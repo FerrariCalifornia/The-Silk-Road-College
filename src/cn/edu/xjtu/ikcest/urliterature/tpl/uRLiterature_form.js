@@ -3,7 +3,7 @@ uRLiteratureApp.form={
         id: "uRLiteratureForm",
         view:"form", 
         scroll:false,
-        width:860,
+        width:1060,
         elements:[
 {
 	  "margin": 10,
@@ -17,17 +17,34 @@ uRLiteratureApp.form={
 	          "label": "标题",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
-	        },
-	        {
-	          "view": "text",
-	          "id": "year",
-	          "name": "year",
-	          "label": "年份",
-	          "labelWidth": "100",
-	          "labelAlign": "right"
 	        }
 	      ]
 	    },
+	    
+	    {
+		      "cols": [
+		               {
+		     	          "view": "text",
+		     	          "id": "doi",
+		     	          "name": "doi",
+		     	          "label": "DOI",
+		     	          "labelWidth": "100",
+		     	          "labelAlign": "right"
+		     	        },
+		        {
+		          "view": "text",
+		          "id": "year",
+		          "name": "year",
+		          "label": "年份",
+		          "labelWidth": "100",
+		          "labelAlign": "right"
+		        }
+		      ]
+		    },
+	    
+	    
+	    
+	    
 	    {
 	      "cols": [
 	        {
@@ -62,7 +79,7 @@ uRLiteratureApp.form={
 	          "view": "text",
 	          "id": "paper_id",
 	          "name": "paper_id",
-	          "label": "论文id",
+	          "label": "论文ID",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        }
@@ -110,14 +127,7 @@ uRLiteratureApp.form={
 	    },
 	    {
 	      "cols": [
-	        {
-	          "view": "text",
-	          "id": "doi",
-	          "name": "doi",
-	          "label": "dos",
-	          "labelWidth": "100",
-	          "labelAlign": "right"
-	        },
+	       
 	        {
 	          "view": "text",
 	          "id": "url",
@@ -131,23 +141,28 @@ uRLiteratureApp.form={
 	    {
 	      "cols": [
 	        {
-	          "view": "text",
+	          "view": "textarea",
 	          "id": "summary",
 	          "name": "summary",
-	          "label": "梗概",
-	          "labelWidth": "100",
-	          "labelAlign": "right"
-	        },
-	        {
-	          "view": "text",
-	          "id": "author_keyword",
-	          "name": "author_keyword",
-	          "label": "作者关键词",
+	          "label": "摘要",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        }
 	      ]
 	    },
+	    {
+		      "cols": [
+		       
+		        {
+		          "view": "text",
+		          "id": "author_keyword",
+		          "name": "author_keyword",
+		          "label": "作者关键词",
+		          "labelWidth": "100",
+		          "labelAlign": "right"
+		        }
+		      ]
+		    },
 	    {
 	      "cols": [
 	        {
@@ -174,7 +189,7 @@ uRLiteratureApp.form={
 	          "view": "text",
 	          "id": "cas",
 	          "name": "cas",
-	          "label": "cas",
+	          "label": "CAS",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        },
@@ -274,7 +289,7 @@ uRLiteratureApp.form={
 	          "view": "text",
 	          "id": "issn",
 	          "name": "issn",
-	          "label": "issn",
+	          "label": "ISSN",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        },
@@ -282,7 +297,7 @@ uRLiteratureApp.form={
 	          "view": "text",
 	          "id": "isbn",
 	          "name": "isbn",
-	          "label": "isbn",
+	          "label": "ISBN",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        }
@@ -294,7 +309,7 @@ uRLiteratureApp.form={
 	          "view": "text",
 	          "id": "coden",
 	          "name": "coden",
-	          "label": "codes",
+	          "label": "CODEN",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        },
@@ -302,7 +317,7 @@ uRLiteratureApp.form={
 	          "view": "text",
 	          "id": "pubmed_id",
 	          "name": "pubmed_id",
-	          "label": "pubmed id",
+	          "label": "PubmedID",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        }
@@ -322,7 +337,7 @@ uRLiteratureApp.form={
 	          "view": "text",
 	          "id": "orginal_publication_abbr",
 	          "name": "orginal_publication_abbr",
-	          "label": "原出版社地址",
+	          "label": "原出版社",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        }
@@ -354,7 +369,7 @@ uRLiteratureApp.form={
 	          "view": "text",
 	          "id": "eid",
 	          "name": "eid",
-	          "label": "eid",
+	          "label": "EID",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        },
@@ -362,7 +377,7 @@ uRLiteratureApp.form={
 	          "view": "text",
 	          "id": "u_id",
 	          "name": "u_id",
-	          "label": "u id",
+	          "label": "UID",
 	          "labelWidth": "100",
 	          "labelAlign": "right"
 	        }
@@ -373,42 +388,42 @@ uRLiteratureApp.form={
 
         ],
         rules:{
-       "title": webix.rules.isNotEmpty
-        ,"year": webix.rules.isNaturalNumberNullable
-        ,"orginal_publication": webix.rules.isNotEmpty
-        ,"volume": webix.rules.isNotEmpty
-        ,"issue": webix.rules.isNotEmpty
-        ,"paper_id": webix.rules.isNaturalNumberNullable
-        ,"start_page": webix.rules.isNaturalNumberNullable
-        ,"end_page": webix.rules.isNaturalNumberNullable
-        ,"page_counter": webix.rules.isNaturalNumberNullable
-        ,"citing_paper": webix.rules.isNotEmpty
-        ,"doi": webix.rules.isNotEmpty
-        ,"url": webix.rules.isNotEmpty
-        ,"summary": webix.rules.isNotEmpty
-        ,"author_keyword": webix.rules.isNotEmpty
-        ,"index_keyword": webix.rules.isNotEmpty
-        ,"analysis_serial_number": webix.rules.isNotEmpty
-        ,"cas": webix.rules.isNotEmpty
-        ,"brand": webix.rules.isNotEmpty
-        ,"manufacturer": webix.rules.isNotEmpty
-        ,"funding_info": webix.rules.isNotEmpty
-        ,"references": webix.rules.isNotEmpty
-        ,"postal_addr": webix.rules.isNotEmpty
-        ,"editor": webix.rules.isNotEmpty
-        ,"funding_agent": webix.rules.isNotEmpty
-        ,"publisher": webix.rules.isNotEmpty
-        ,"conference_name": webix.rules.isNotEmpty
-        ,"issn": webix.rules.isNotEmpty
-        ,"isbn": webix.rules.isNotEmpty
-        ,"coden": webix.rules.isNotEmpty
-        ,"pubmed_id": webix.rules.isNotEmpty
-        ,"language": webix.rules.isNotEmpty
-        ,"orginal_publication_abbr": webix.rules.isNotEmpty
-        ,"paper_type": webix.rules.isNotEmpty
-        ,"source_of_publication": webix.rules.isNotEmpty
-        ,"eid": webix.rules.isNotEmpty
-        ,"u_id": webix.rules.isNotEmpty
+//       "title": webix.rules.isNotEmpty
+//        ,"year": webix.rules.isNaturalNumberNullable
+//        ,"orginal_publication": webix.rules.isNotEmpty
+//        ,"volume": webix.rules.isNotEmpty
+//        ,"issue": webix.rules.isNotEmpty
+//        ,"paper_id": webix.rules.isNaturalNumberNullable
+//        ,"start_page": webix.rules.isNaturalNumberNullable
+//        ,"end_page": webix.rules.isNaturalNumberNullable
+//        ,"page_counter": webix.rules.isNaturalNumberNullable
+//        ,"citing_paper": webix.rules.isNotEmpty
+//        ,"doi": webix.rules.isNotEmpty
+//        ,"url": webix.rules.isNotEmpty
+//        ,"summary": webix.rules.isNotEmpty
+//        ,"author_keyword": webix.rules.isNotEmpty
+//        ,"index_keyword": webix.rules.isNotEmpty
+//        ,"analysis_serial_number": webix.rules.isNotEmpty
+//        ,"cas": webix.rules.isNotEmpty
+//        ,"brand": webix.rules.isNotEmpty
+//        ,"manufacturer": webix.rules.isNotEmpty
+//        ,"funding_info": webix.rules.isNotEmpty
+//        ,"references": webix.rules.isNotEmpty
+//        ,"postal_addr": webix.rules.isNotEmpty
+//        ,"editor": webix.rules.isNotEmpty
+//        ,"funding_agent": webix.rules.isNotEmpty
+//        ,"publisher": webix.rules.isNotEmpty
+//        ,"conference_name": webix.rules.isNotEmpty
+//        ,"issn": webix.rules.isNotEmpty
+//        ,"isbn": webix.rules.isNotEmpty
+//        ,"coden": webix.rules.isNotEmpty
+//        ,"pubmed_id": webix.rules.isNotEmpty
+//        ,"language": webix.rules.isNotEmpty
+//        ,"orginal_publication_abbr": webix.rules.isNotEmpty
+//        ,"paper_type": webix.rules.isNotEmpty
+//        ,"source_of_publication": webix.rules.isNotEmpty
+//        ,"eid": webix.rules.isNotEmpty
+//        ,"u_id": webix.rules.isNotEmpty
         }
 
 };
@@ -419,7 +434,7 @@ uRLiteratureApp.formWindowHeader={id:"uRLiteratureFormWindowHeader", view:"templ
 uRLiteratureApp.scrollFormLayout={
         rows:[
              
-              {view:"scrollview",  height:400, width:880,scroll:"y",  body: uRLiteratureApp.form}
+              {view:"scrollview",  height:450, width:1080,scroll:"y",  body: uRLiteratureApp.form}
               ,
               {
                   margin : 5,
@@ -440,7 +455,7 @@ uRLiteratureApp.formWindow = {
     id:"uRLiteratureFormWindow",
     view:"window",
     modal:true,
-    width:920,
+    width:1120,
     position:"center",
     //body:uRLiteratureApp.form,
     body:uRLiteratureApp.scrollFormLayout,

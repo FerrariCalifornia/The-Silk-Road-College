@@ -8,7 +8,7 @@ wellbole.OaRepoApp = webix.proto({
 		this.defaults.deleteUrl = "/oaRepo/delete.do";
 		//名称定义
 		this.defaults.name = "OaRepo";
-		this.defaults.showName = "oa_repo";
+		this.defaults.showName = "开放资源";
 		this.defaults.mainTableId = "oaRepoMainTable";
 		this.defaults.formId = "oaRepoForm";
 		this.defaults.formWindowHeaderId = "oaRepoFormWindowHeader";

@@ -3,7 +3,7 @@ uRAuthorApp.form={
         id: "uRAuthorForm",
         view:"form", 
         scroll:false,
-        width:460,
+        width:760,
         elements:[
        { id:"name", name:"name", view:"text", label:"名称"},
         { id:"alias", name:"alias", view:"text", label:"别名"}
@@ -24,7 +24,7 @@ uRAuthorApp.formWindowHeader={id:"uRAuthorFormWindowHeader", view:"template", te
 uRAuthorApp.scrollFormLayout={
         rows:[
              
-              {view:"scrollview",  height:400, width:480,scroll:"y",  body: uRAuthorApp.form}
+              {view:"scrollview",  height:400, width:780,scroll:"y",  body: uRAuthorApp.form}
               ,
               {
                   margin : 5,
@@ -45,7 +45,7 @@ uRAuthorApp.formWindow = {
     id:"uRAuthorFormWindow",
     view:"window",
     modal:true,
-    width:520,
+    width:820,
     position:"center",
     //body:uRAuthorApp.form,
     body:uRAuthorApp.scrollFormLayout,

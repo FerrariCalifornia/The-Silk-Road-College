@@ -3,7 +3,7 @@ uRWrittenByApp.form={
         id: "uRWrittenByForm",
         view:"form", 
         scroll:false,
-        width:460,
+        width:760,
         elements:[
        { id:"literature_id", name:"literature_id", view:"text", label:"文献id"}
         ,{ id:"author_id", name:"author_id", view:"text", label:"作者id"}
@@ -22,7 +22,7 @@ uRWrittenByApp.formWindowHeader={id:"uRWrittenByFormWindowHeader", view:"templat
 uRWrittenByApp.scrollFormLayout={
         rows:[
              
-              {view:"scrollview",  height:400, width:480,scroll:"y",  body: uRWrittenByApp.form}
+              {view:"scrollview",  height:400, width:780,scroll:"y",  body: uRWrittenByApp.form}
               ,
               {
                   margin : 5,
@@ -43,7 +43,7 @@ uRWrittenByApp.formWindow = {
     id:"uRWrittenByFormWindow",
     view:"window",
     modal:true,
-    width:520,
+    width:820,
     position:"center",
     //body:uRWrittenByApp.form,
     body:uRWrittenByApp.scrollFormLayout,

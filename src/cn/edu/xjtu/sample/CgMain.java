@@ -26,7 +26,7 @@ public class CgMain {
         //druid.setFilters("config");
         druid.start();
         //"sys_role_welcome",
-        String[] skipTables = {"oa_repo", "sys_role_welcome","app_blog","sys_dict", "sys_dict_type", "sys_optlog", "sys_resource", "sys_role_resource", "sys_role" , "sys_user_role", "sys_version", "sys_setting",  "sys_file","sys_org","sys_message","sys_user","sys_tag","sys_tag_obj" };
+        String[] skipTables = {"sys_role_welcome","app_blog","sys_dict", "sys_dict_type", "sys_optlog", "sys_resource", "sys_role_resource", "sys_role" , "sys_user_role", "sys_version", "sys_setting",  "sys_file","sys_org","sys_message","sys_user","sys_tag","sys_tag_obj" };
         //String[] skipTables = {};
         String packageUrl = "cn.edu.xjtu.ikcest";
         String company = "西安交通大学";
@@ -34,7 +34,7 @@ public class CgMain {
         cgm.setCompany(company);
         cgm.addExcludedTable(skipTables);
         cgm.setAllowTableNamePrefixes("");
-        cgm.addIncludeTable("patent_repo");
+        cgm.addIncludeTable("oa_repo");
         cgm.generate("form");
         druid.stop();
     }

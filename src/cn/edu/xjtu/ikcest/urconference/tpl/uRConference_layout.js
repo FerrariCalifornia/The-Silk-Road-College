@@ -30,8 +30,8 @@ uRConferenceApp.mainTable = {
     //leftSplit:5,
     columns:[
 //        { id:"id",  header:"id", css:{"text-align":"right"},    width:80}
-        { id:"name",    header:"名称", adjust:true}
-        ,{ id:"alias",    header:"别名", adjust:true}
+//        { id:"name",    header:"名称", adjust:true}
+        { id:"alias",    header:"别名", adjust:true}
         ,{ id:"date",   view:"datatable", format:webix.Date.dateToStr("%Y-%m-%d"),  header:"日期", adjust:true}
         ,{ id:"location",    header:"地点", adjust:true}
         ,{ id:"code",    header:"代码", adjust:true}

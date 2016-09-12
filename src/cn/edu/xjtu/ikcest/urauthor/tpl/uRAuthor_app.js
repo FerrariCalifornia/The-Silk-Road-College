@@ -8,7 +8,7 @@ wellbole.URAuthorApp = webix.proto({
 		this.defaults.deleteUrl = "/uRAuthor/delete.do";
 		//名称定义
 		this.defaults.name = "URAuthor";
-		this.defaults.showName = "u_r_author";
+		this.defaults.showName = "作者";
 		this.defaults.mainTableId = "uRAuthorMainTable";
 		this.defaults.formId = "uRAuthorForm";
 		this.defaults.formWindowHeaderId = "uRAuthorFormWindowHeader";

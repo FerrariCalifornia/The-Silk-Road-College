@@ -3,19 +3,139 @@ oaRepoApp.form={
         id: "oaRepoForm",
         view:"form", 
         scroll:false,
-        width:460,
+        width:960,
         elements:[
-       { id:"first_subject", name:"first_subject", view:"text", label:"第一主题"}
-        ,{ id:"second_subject", name:"second_subject", view:"text", label:"第二主题"}
-        ,{ id:"literature_title", name:"literature_title", view:"text", label:"著作名"}
-        ,{ id:"abstract", name:"abstract", view:"text", label:"摘要"}
-        ,{ id:"url", name:"url", view:"text", label:"URL地址"}
-        ,{ id:"author", name:"author", view:"text", label:"作者"}
-        ,{ id:"journal_title", name:"journal_title", view:"text", label:"杂志名"}
-        ,{ id:"journal_volume", name:"journal_volume", view:"text", label:"卷"}
-        ,{ id:"journal_number", name:"journal_number", view:"text", label:"杂志号"}
-        ,{ id:"year", name:"year", view:"text", label:"年份"}
-        ,{ id:"doi", name:"doi", view:"text", label:"工业部"}
+       {
+  "margin": 10,
+  "rows": [
+    {
+      "cols": [
+        {
+          "view": "text",
+          "id": "first_subject",
+          "name": "first_subject",
+          "label": "第一主题",
+          "labelWidth": "100",
+          "labelAlign": "right"
+        }
+      ]
+    },
+    
+    {
+        "cols": [
+          {
+            "view": "text",
+            "id": "second_subject",
+            "name": "second_subject",
+            "label": "第二主题",
+            "labelWidth": "100",
+            "labelAlign": "right"
+          }
+        ]
+      },
+    
+    {
+      "cols": [
+        {
+          "view": "text",
+          "id": "literature_title",
+          "name": "literature_title",
+          "label": "著作名",
+          "labelWidth": "100",
+          "labelAlign": "right"
+        }
+      ]
+    },
+
+    
+    {
+      "cols": [
+       
+        {
+          "view": "textarea",
+          "id": "abstract",
+          "name": "abstract",
+          "label": "摘要",
+          "labelWidth": "100",
+          "labelAlign": "right"
+        }
+      ]
+    },
+    {
+      "cols": [
+        {
+          "view": "text",
+          "id": "doi",
+          "name": "doi",
+          "label": "工业部",
+          "labelWidth": "100",
+          "labelAlign": "right"
+        },
+        {
+          "view": "text",
+          "id": "author",
+          "name": "author",
+          "label": "作者",
+          "labelWidth": "100",
+          "labelAlign": "right"
+        }
+      ]
+    },
+    {
+      "cols": [
+        {
+          "view": "text",
+          "id": "journal_title",
+          "name": "journal_title",
+          "label": "杂志名",
+          "labelWidth": "100",
+          "labelAlign": "right"
+        },
+        {
+          "view": "text",
+          "id": "journal_volume",
+          "name": "journal_volume",
+          "label": "卷",
+          "labelWidth": "100",
+          "labelAlign": "right"
+        }
+      ]
+    },
+    {
+      "cols": [
+        {
+          "view": "text",
+          "id": "journal_number",
+          "name": "journal_number",
+          "label": "杂志号",
+          "labelWidth": "100",
+          "labelAlign": "right"
+        },
+        {
+          "view": "text",
+          "id": "year",
+          "name": "year",
+          "label": "年份",
+          "labelWidth": "100",
+          "labelAlign": "right"
+        }
+      ]
+    },
+    
+    {
+        "cols": [
+          {
+            "view": "text",
+            "id": "url",
+            "name": "url",
+            "label": "url地址",
+            "labelWidth": "100",
+            "labelAlign": "right"
+          }
+        ]
+      },
+  ]
+}
 
         ],
         rules:{
@@ -40,7 +160,7 @@ oaRepoApp.formWindowHeader={id:"oaRepoFormWindowHeader", view:"template", templa
 oaRepoApp.scrollFormLayout={
         rows:[
              
-              {view:"scrollview",  height:400, width:480,scroll:"y",  body: oaRepoApp.form}
+              {view:"scrollview",  height:400, width:980,scroll:"y",  body: oaRepoApp.form}
               ,
               {
                   margin : 5,
@@ -61,7 +181,7 @@ oaRepoApp.formWindow = {
     id:"oaRepoFormWindow",
     view:"window",
     modal:true,
-    width:520,
+    width:1020,
     position:"center",
     //body:oaRepoApp.form,
     body:oaRepoApp.scrollFormLayout,

@@ -3,7 +3,7 @@ uRConferenceApp.form = {
 	id : "uRConferenceForm",
 	view : "form",
 	scroll : false,
-	width : 460,
+	width : 760,
 	elements : [ {
 		  "rows": [
 		           {
@@ -73,7 +73,7 @@ uRConferenceApp.scrollFormLayout = {
 	{
 		view : "scrollview",
 		height : 400,
-		width : 480,
+		width : 780,
 		scroll : "y",
 		body : uRConferenceApp.form
 	}, {
@@ -103,7 +103,7 @@ uRConferenceApp.formWindow = {
 	id : "uRConferenceFormWindow",
 	view : "window",
 	modal : true,
-	width : 520,
+	width : 820,
 	position : "center",
 	// body:uRConferenceApp.form,
 	body : uRConferenceApp.scrollFormLayout,

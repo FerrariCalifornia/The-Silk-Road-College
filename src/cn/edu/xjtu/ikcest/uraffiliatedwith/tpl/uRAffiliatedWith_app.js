@@ -8,7 +8,7 @@ wellbole.URAffiliatedWithApp = webix.proto({
 		this.defaults.deleteUrl = "/uRAffiliatedWith/delete.do";
 		//名称定义
 		this.defaults.name = "URAffiliatedWith";
-		this.defaults.showName = "u_r_affiliated_with";
+		this.defaults.showName = "隶属";
 		this.defaults.mainTableId = "uRAffiliatedWithMainTable";
 		this.defaults.formId = "uRAffiliatedWithForm";
 		this.defaults.formWindowHeaderId = "uRAffiliatedWithFormWindowHeader";
