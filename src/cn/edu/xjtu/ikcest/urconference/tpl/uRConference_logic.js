@@ -25,7 +25,7 @@ uRConferenceApp.on("appInit", function(){
     //查询
     $$("uRConferenceToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-//    $$("uRConferenceToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+    $$("uRConferenceToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("uRConferenceToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));

@@ -11,7 +11,7 @@ patentRepoApp.toolbar = {
         ,{ view:"button", id:"patentRepoToolbarBtnEdit",type:"iconButton", icon:"pencil", label:"修改", autowidth:true}
         ,{ view:"button", id:"patentRepoToolbarBtnDelete",type:"iconButton", icon:"trash-o", label:"删除", autowidth:true}
         ,{ view:"button", id:"patentRepoToolbarBtnImportFromExcel",type:"iconButton", icon:"file-excel-o", label:"导入", autowidth:true}
-       // ,{ view:"button", id:"patentRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
+        ,{ view:"button", id:"patentRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
     ]
 };
 

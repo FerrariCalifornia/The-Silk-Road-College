@@ -11,7 +11,7 @@ dissertationRepoApp.toolbar = {
         ,{ view:"button", id:"dissertationRepoToolbarBtnEdit",type:"iconButton", icon:"pencil", label:"修改", autowidth:true}
         ,{ view:"button", id:"dissertationRepoToolbarBtnDelete",type:"iconButton", icon:"trash-o", label:"删除", autowidth:true}
         ,{ view:"button", id:"dissertationRepoToolbarBtnImportFromExcel",type:"iconButton", icon:"file-excel-o", label:"导入", autowidth:true}
-//        ,{ view:"button", id:"dissertationRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
+        ,{ view:"button", id:"dissertationRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
     ]
 };
 

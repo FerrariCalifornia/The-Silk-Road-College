@@ -25,7 +25,7 @@ uRLiteratureApp.on("appInit", function(){
     //查询
     $$("uRLiteratureToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-//    $$("uRLiteratureToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+    $$("uRLiteratureToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("uRLiteratureToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));

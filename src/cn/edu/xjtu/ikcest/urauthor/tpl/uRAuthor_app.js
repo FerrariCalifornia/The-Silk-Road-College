@@ -23,7 +23,7 @@ wellbole.URAuthorApp = webix.proto({
 		this.defaults.reloadMainTableAfterUpdated=true;
 		this.defaults.useSearch=true;
 		//导出控制
-		this.defaults.exportToExcel = true;
+		this.defaults.exportToExcel = false;
 		this.defaults.exportToExcelFileName = "u_r_author";
 		this.defaults.exportToExcelSelectColumns = null;
 	}

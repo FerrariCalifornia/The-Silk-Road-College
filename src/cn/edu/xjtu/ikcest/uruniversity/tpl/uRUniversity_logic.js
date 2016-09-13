@@ -25,7 +25,7 @@ uRUniversityApp.on("appInit", function(){
     //查询
     $$("uRUniversityToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-//    $$("uRUniversityToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+    $$("uRUniversityToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("uRUniversityToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));
