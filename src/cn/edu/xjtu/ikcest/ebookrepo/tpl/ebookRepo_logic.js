@@ -25,7 +25,7 @@ ebookRepoApp.on("appInit", function(){
     //查询
     $$("ebookRepoToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("ebookRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+//    $$("ebookRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("ebookRepoToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));

@@ -25,7 +25,7 @@ uRAuthorApp.on("appInit", function(){
     //查询
     $$("uRAuthorToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("uRAuthorToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+//    $$("uRAuthorToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("uRAuthorToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));

@@ -61,8 +61,8 @@ app.topToolbar = {
 		css:"header",
 		borderless:true,
 		elements:[
-		    {view: "template", type:"clean",  template:'<img src="${base}/images/${logo}"  style="height: 46px;width:auto;" border="0">',  borderless:true,height:46,width:156},
-			{view: "label", css:"header big_size",label: "${application!}", width: 360},
+		    //{view: "template", type:"clean",  template:'<img src="${base}/images/${logo}"  style="height: 46px;width:auto;" border="0">',  borderless:true,height:46,width:305},
+			{view: "label", css:"header big_size",label: "${application!}", width: 460},
 			{},
 			//子系统切换
 		    { view:"label", css:"header username",label: "当前用户：${user.username!''}", width:300, align:"right"},

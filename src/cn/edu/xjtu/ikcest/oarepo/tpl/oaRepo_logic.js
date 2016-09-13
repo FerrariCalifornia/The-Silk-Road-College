@@ -25,7 +25,7 @@ oaRepoApp.on("appInit", function(){
     //查询
     $$("oaRepoToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("oaRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+//    $$("oaRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("oaRepoToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));

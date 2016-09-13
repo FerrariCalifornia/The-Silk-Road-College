@@ -25,7 +25,7 @@ confRepoApp.on("appInit", function(){
     //查询
     $$("confRepoToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("confRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+//    $$("confRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("confRepoToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));

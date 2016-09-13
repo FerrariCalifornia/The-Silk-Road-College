@@ -25,7 +25,7 @@ patentRepoApp.on("appInit", function(){
     //查询
     $$("patentRepoToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("patentRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+//    $$("patentRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("patentRepoToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));

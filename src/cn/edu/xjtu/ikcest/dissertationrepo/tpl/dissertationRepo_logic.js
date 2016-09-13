@@ -25,7 +25,7 @@ dissertationRepoApp.on("appInit", function(){
     //查询
     $$("dissertationRepoToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("dissertationRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+//    $$("dissertationRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("dissertationRepoToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));

@@ -11,7 +11,7 @@ confRepoApp.toolbar = {
         ,{ view:"button", id:"confRepoToolbarBtnEdit",type:"iconButton", icon:"pencil", label:"修改", autowidth:true}
         ,{ view:"button", id:"confRepoToolbarBtnDelete",type:"iconButton", icon:"trash-o", label:"删除", autowidth:true}
         ,{ view:"button", id:"confRepoToolbarBtnImportFromExcel",type:"iconButton", icon:"file-excel-o", label:"导入", autowidth:true}
-        ,{ view:"button", id:"confRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
+//        ,{ view:"button", id:"confRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
     ]
 };
 

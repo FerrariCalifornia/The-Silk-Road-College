@@ -25,7 +25,7 @@ uRAffiliatedWithApp.on("appInit", function(){
     //查询
     $$("uRAffiliatedWithToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("uRAffiliatedWithToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+//    $$("uRAffiliatedWithToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("uRAffiliatedWithToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));
