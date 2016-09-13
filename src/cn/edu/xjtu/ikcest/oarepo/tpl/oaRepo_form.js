@@ -143,7 +143,7 @@ oaRepoApp.form={
         ,"second_subject": webix.rules.isNotEmpty
         ,"literature_title": webix.rules.isNotEmpty
         ,"abstract": webix.rules.isNotEmpty
-        ,"url": webix.rules.isNotEmpty
+        ,"url": webix.rules.isUrlNullable
         ,"author": webix.rules.isNotEmpty
         ,"journal_title": webix.rules.isNotEmpty
         ,"journal_volume": webix.rules.isNotEmpty

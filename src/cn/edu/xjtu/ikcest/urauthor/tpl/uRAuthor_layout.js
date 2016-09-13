@@ -11,7 +11,7 @@ uRAuthorApp.toolbar = {
         ,{ view:"button", id:"uRAuthorToolbarBtnEdit",type:"iconButton", icon:"pencil", label:"修改", autowidth:true}
         ,{ view:"button", id:"uRAuthorToolbarBtnDelete",type:"iconButton", icon:"trash-o", label:"删除", autowidth:true}
         ,{ view:"button", id:"uRAuthorToolbarBtnImportFromExcel",type:"iconButton", icon:"file-excel-o", label:"导入", autowidth:true}
-        ,{ view:"button", id:"uRAuthorToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
+//        ,{ view:"button", id:"uRAuthorToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
     ]
 };
 

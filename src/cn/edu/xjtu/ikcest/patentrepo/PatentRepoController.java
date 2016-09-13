@@ -75,7 +75,7 @@ public class PatentRepoController extends SqlBuilderBaseCrudController<java.lang
         String keyword=this.getPara("keyword");
         LOG.info("keyword="+keyword);
         if(StrKit.notBlank(keyword)){
-            //sql.and(PATENT_REPO.NAME.like("%"+keyword+"%"));
+            sql.and(PATENT_REPO.TITLE.like("%"+keyword+"%"));
         }
         return sql;
     }

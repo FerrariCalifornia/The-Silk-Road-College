@@ -76,7 +76,7 @@ public class DissertationRepoController extends SqlBuilderBaseCrudController<jav
         String keyword=this.getPara("keyword");
         LOG.info("keyword="+keyword);
         if(StrKit.notBlank(keyword)){
-            //sql.and(DISSERTATION_REPO.NAME.like("%"+keyword+"%"));
+            sql.and(DISSERTATION_REPO.NAME.like("%"+keyword+"%"));
         }
         return sql;
     }

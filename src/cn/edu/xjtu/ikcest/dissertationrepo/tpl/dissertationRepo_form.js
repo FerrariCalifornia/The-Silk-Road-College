@@ -259,34 +259,34 @@ dissertationRepoApp.form = {
 
 	],
 	rules : {
-	// "title": webix.rules.isNotEmpty
-	// ,"title_spelling": webix.rules.isNotEmpty
-	// ,"name": webix.rules.isNotEmpty
-	// ,"name_spelling": webix.rules.isNotEmpty
-	// ,"student_id": webix.rules.isNotEmpty
-	// ,"university": webix.rules.isNotEmpty
-	// ,"school": webix.rules.isNotEmpty
-	// ,"discipline": webix.rules.isNotEmpty
-	// ,"major": webix.rules.isNotEmpty
-	// ,"degree": webix.rules.isNotEmpty
-	// ,"degree_type": webix.rules.isNotEmpty
-	// ,"oral_defense_date": webix.rules.isNotEmpty
-	// ,"secret_level": webix.rules.isNotEmpty
-	// ,"submitting_date": webix.rules.isNotEmpty
-	// ,"foreign_title": webix.rules.isNotEmpty
-	// ,"mentor_name": webix.rules.isNotEmpty
-	// ,"mentor_work_unit": webix.rules.isNotEmpty
-	// ,"chinese_keywords": webix.rules.isNotEmpty
-	// ,"english_keywords": webix.rules.isNotEmpty
-	// ,"total_pages": webix.rules.isNaturalNumberNullable
-	// ,"num_of_bibliography": webix.rules.isNaturalNumberNullable
-	// ,"chinese_abstract": webix.rules.isNotEmpty
-	// ,"english_abstract": webix.rules.isNotEmpty
-	// ,"nationality": webix.rules.isNotEmpty
-	// ,"discipline_code": webix.rules.isNotEmpty
-	// ,"last_updated": webix.rules.isNotEmpty
-	// ,"call_num": webix.rules.isNotEmpty
-	// ,"full_text": webix.rules.isNotEmpty
+	 "title": webix.rules.isNotEmpty
+	 ,"title_spelling": webix.rules.isNotEmpty
+	 ,"name": webix.rules.isNotEmpty
+	 ,"name_spelling": webix.rules.isNotEmpty
+	 ,"student_id": webix.rules.isNotEmpty
+	 ,"university": webix.rules.isNotEmpty
+	 ,"school": webix.rules.isNotEmpty
+	 ,"discipline": webix.rules.isNotEmpty
+	 ,"major": webix.rules.isNotEmpty
+	 ,"degree": webix.rules.isNotEmpty
+	 ,"degree_type": webix.rules.isNotEmpty
+	 ,"oral_defense_date": webix.rules.isNotEmpty
+	 ,"secret_level": webix.rules.isNotEmpty
+	 ,"submitting_date": webix.rules.isNotEmpty
+	 ,"foreign_title": webix.rules.isNotEmpty
+	 ,"mentor_name": webix.rules.isNotEmpty
+	 ,"mentor_work_unit": webix.rules.isNotEmpty
+	 ,"chinese_keywords": webix.rules.isNotEmpty
+	 ,"english_keywords": webix.rules.isNotEmpty
+	 ,"total_pages": webix.rules.isNaturalNumberNullable
+	 ,"num_of_bibliography": webix.rules.isNaturalNumberNullable
+	 ,"chinese_abstract": webix.rules.isNotEmpty
+	 ,"english_abstract": webix.rules.isNotEmpty
+	 ,"nationality": webix.rules.isNotEmpty
+	 ,"discipline_code": webix.rules.isNotEmpty
+	 ,"last_updated": webix.rules.isNotEmpty
+	 ,"call_num": webix.rules.isNotEmpty
+	 ,"full_text": webix.rules.isNotEmpty
 	}
 
 };

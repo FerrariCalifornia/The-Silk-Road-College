@@ -25,7 +25,7 @@ oaRepoApp.on("appInit", function(){
     //查询
     $$("oaRepoToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("oaRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+//    $$("oaRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("oaRepoToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));
@@ -92,8 +92,8 @@ oaRepoApp.on("doSearch", function() {
 	table.clearAll();
 	var url = this.defaults.loadUrl + "?key=value";
 	//添加keywork搜索参数
-	//var keyword = $$("keyword").getValue();
-	//url = url + "&keyword=" + encodeURIComponent(keyword);
+	var keyword = $$("keyword").getValue();
+	url = url + "&keyword=" + encodeURIComponent(keyword);
 
 	if (this.defaults.exportToExcel) {
 		var filename = this.defaults.exportToExcelFileName;

@@ -25,7 +25,7 @@ confRepoApp.on("appInit", function(){
     //查询
     $$("confRepoToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("confRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+    //$$("confRepoToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("confRepoToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));
@@ -91,9 +91,12 @@ confRepoApp.on("doSearch", function() {
 	var table = $$(this.defaults.mainTableId);
 	table.clearAll();
 	var url = this.defaults.loadUrl + "?key=value";
-	//添加keywork搜索参数
-	//var keyword = $$("keyword").getValue();
-	//url = url + "&keyword=" + encodeURIComponent(keyword);
+//	添加keywork搜索参数
+//	alert("hehe");
+
+	var keyword = $$("keyword").getValue();
+//	alert(keyword);
+	url = url + "&keyword=" + encodeURIComponent(keyword);
 
 	if (this.defaults.exportToExcel) {
 		var filename = this.defaults.exportToExcelFileName;

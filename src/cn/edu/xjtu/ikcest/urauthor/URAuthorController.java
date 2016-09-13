@@ -75,7 +75,7 @@ public class URAuthorController extends SqlBuilderBaseCrudController<java.lang.S
         String keyword=this.getPara("keyword");
         LOG.info("keyword="+keyword);
         if(StrKit.notBlank(keyword)){
-            //sql.and(U_R_AUTHOR.NAME.like("%"+keyword+"%"));
+            sql.and(U_R_AUTHOR.NAME.like("%"+keyword+"%"));
         }
         return sql;
     }

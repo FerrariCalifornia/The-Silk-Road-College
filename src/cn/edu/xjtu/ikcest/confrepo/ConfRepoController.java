@@ -77,7 +77,7 @@ public class ConfRepoController extends SqlBuilderBaseCrudController<java.lang.S
         String keyword=this.getPara("keyword");
         LOG.info("keyword="+keyword);
         if(StrKit.notBlank(keyword)){
-            //sql.and(CONF_REPO.NAME.like("%"+keyword+"%"));
+            sql.and(CONF_REPO.CONFERENCE_NAME.like("%"+keyword+"%"));
         }
         return sql;
     }

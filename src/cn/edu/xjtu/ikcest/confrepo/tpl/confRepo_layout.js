@@ -11,7 +11,7 @@ confRepoApp.toolbar = {
         ,{ view:"button", id:"confRepoToolbarBtnEdit",type:"iconButton", icon:"pencil", label:"修改", autowidth:true}
         ,{ view:"button", id:"confRepoToolbarBtnDelete",type:"iconButton", icon:"trash-o", label:"删除", autowidth:true}
         ,{ view:"button", id:"confRepoToolbarBtnImportFromExcel",type:"iconButton", icon:"file-excel-o", label:"导入", autowidth:true}
-        ,{ view:"button", id:"confRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
+        //,{ view:"button", id:"confRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
     ]
 };
 
@@ -33,10 +33,7 @@ confRepoApp.mainTable = {
          { id:"conference_name",    header:"会议名", adjust:true}
         ,{ id:"organizer",    header:"组织者", adjust:true}
         ,{ id:"language",    header:"语言", adjust:true}
-        ,{ id:"eligibility",    header:"资格", adjust:true}
-        
-        
-        
+        ,{ id:"eligibility",    header:"资格", adjust:true}       
         ,{ id:"start_date", view:"datatable", format:webix.Date.dateToStr("%Y-%m-%d"), header:"起始日期", adjust:true } 
         ,{ id:"end_date",    view:"datatable", format:webix.Date.dateToStr("%Y-%m-%d"), header:"截止日期", adjust:true}
         ,{ id:"location",    header:"地点", adjust:true}

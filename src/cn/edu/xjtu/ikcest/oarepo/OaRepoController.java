@@ -75,7 +75,7 @@ public class OaRepoController extends SqlBuilderBaseCrudController<java.lang.Str
         String keyword=this.getPara("keyword");
         LOG.info("keyword="+keyword);
         if(StrKit.notBlank(keyword)){
-            //sql.and(OA_REPO.NAME.like("%"+keyword+"%"));
+            sql.and(OA_REPO.LITERATURE_TITLE.like("%"+keyword+"%"));
         }
         return sql;
     }

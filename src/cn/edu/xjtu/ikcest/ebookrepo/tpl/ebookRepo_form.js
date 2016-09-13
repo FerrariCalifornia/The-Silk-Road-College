@@ -221,8 +221,8 @@ ebookRepoApp.form={
 //        ,"series_identification": webix.rules.isNotEmpty
 //        ,"series_name": webix.rules.isNotEmpty
 //        ,"series_id": webix.rules.isNotEmpty
-        ,"url": webix.rules.isUrl
-        ,"img_url": webix.rules.isUrl
+        ,"url": webix.rules.isUrlNullable
+        ,"img_url": webix.rules.isUrlNullable
 //        ,"summary": webix.rules.isNotEmpty
 //        ,"keys_or_subjects": webix.rules.isNotEmpty
 //        ,"language": webix.rules.isNotEmpty

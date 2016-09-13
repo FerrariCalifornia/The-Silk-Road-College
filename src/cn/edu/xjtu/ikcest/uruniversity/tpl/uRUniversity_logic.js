@@ -25,7 +25,7 @@ uRUniversityApp.on("appInit", function(){
     //查询
     $$("uRUniversityToolbarBtnSearch").attachEvent("onItemClick",this.action("doSearch"));
     //导出
-    $$("uRUniversityToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
+//    $$("uRUniversityToolbarBtnExportToExcel").attachEvent("onItemClick",this.action("doExportToExcel"));
 
     //导入
     $$("uRUniversityToolbarBtnImportFromExcel").attachEvent("onItemClick",this.action("showImprotWindow"));
@@ -92,8 +92,8 @@ uRUniversityApp.on("doSearch", function() {
 	table.clearAll();
 	var url = this.defaults.loadUrl + "?key=value";
 	//添加keywork搜索参数
-	//var keyword = $$("keyword").getValue();
-	//url = url + "&keyword=" + encodeURIComponent(keyword);
+	var keyword = $$("keyword").getValue();
+	url = url + "&keyword=" + encodeURIComponent(keyword);
 
 	if (this.defaults.exportToExcel) {
 		var filename = this.defaults.exportToExcelFileName;

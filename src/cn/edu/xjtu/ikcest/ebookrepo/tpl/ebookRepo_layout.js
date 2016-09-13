@@ -11,7 +11,7 @@ ebookRepoApp.toolbar = {
         ,{ view:"button", id:"ebookRepoToolbarBtnEdit",type:"iconButton", icon:"pencil", label:"修改", autowidth:true}
         ,{ view:"button", id:"ebookRepoToolbarBtnDelete",type:"iconButton", icon:"trash-o", label:"删除", autowidth:true}
         ,{ view:"button", id:"ebookRepoToolbarBtnImportFromExcel",type:"iconButton", icon:"file-excel-o", label:"导入", autowidth:true}
-        ,{ view:"button", id:"ebookRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
+//        ,{ view:"button", id:"ebookRepoToolbarBtnExportToExcel",type:"iconButton", icon:"file-excel-o", label:"导出", autowidth:true}
     ]
 };
 
@@ -30,10 +30,12 @@ ebookRepoApp.mainTable = {
     //leftSplit:5,
     columns:[
 //        { id:"id",  header:"id", css:{"text-align":"right"},    width:80}
-        { id:"isbn",    header:"ISBN", adjust:true}
-        ,{ id:"eisbn",    header:"ESIBN", adjust:true}
-        ,{ id:"author",    header:"作者", adjust:true}
-        ,{ id:"title",    header:"题名", adjust:true}
+			{ id:"title",    header:"题名", adjust:true},
+			{ id:"author",    header:"作者", adjust:true},
+			{ id:"isbn",    header:"ISBN", adjust:true},
+			{ id:"eisbn",    header:"ESIBN", adjust:true}
+        
+       
         ,{ id:"page_counter",    header:"页码", adjust:true}
         ,{ id:"place_published",    header:"出版地", adjust:true}
         ,{ id:"publisher",    header:"出版社", adjust:true}

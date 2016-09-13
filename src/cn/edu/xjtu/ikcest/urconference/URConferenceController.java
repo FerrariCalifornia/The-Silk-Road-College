@@ -75,7 +75,7 @@ public class URConferenceController extends SqlBuilderBaseCrudController<java.la
         String keyword=this.getPara("keyword");
         LOG.info("keyword="+keyword);
         if(StrKit.notBlank(keyword)){
-            //sql.and(U_R_CONFERENCE.NAME.like("%"+keyword+"%"));
+            sql.and(U_R_CONFERENCE.NAME.like("%"+keyword+"%"));
         }
         return sql;
     }

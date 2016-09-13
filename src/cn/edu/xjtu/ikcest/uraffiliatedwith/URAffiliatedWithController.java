@@ -75,7 +75,7 @@ public class URAffiliatedWithController extends SqlBuilderBaseCrudController<jav
         String keyword=this.getPara("keyword");
         LOG.info("keyword="+keyword);
         if(StrKit.notBlank(keyword)){
-            //sql.and(U_R_AFFILIATED_WITH.NAME.like("%"+keyword+"%"));
+            sql.and(U_R_AFFILIATED_WITH.AUTHOR_ID.like("%"+keyword+"%"));
         }
         return sql;
     }
