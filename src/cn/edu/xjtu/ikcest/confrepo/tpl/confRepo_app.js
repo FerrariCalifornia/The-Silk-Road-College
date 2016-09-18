@@ -24,7 +24,7 @@ wellbole.ConfRepoApp = webix.proto({
 		this.defaults.useSearch=true;
 		//导出控制
 		this.defaults.exportToExcel = false;
-		this.defaults.exportToExcelFileName = "conf_repo";
+		this.defaults.exportToExcelFileName = "会议";
 		this.defaults.exportToExcelSelectColumns = null;
 	}
 },wellbole.BaseApp);

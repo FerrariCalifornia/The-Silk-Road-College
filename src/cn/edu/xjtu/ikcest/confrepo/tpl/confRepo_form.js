@@ -224,7 +224,7 @@ confRepoApp.form = {
 confRepoApp.formWindowHeader = {
 	id : "confRepoFormWindowHeader",
 	view : "template",
-	template : "conf_repo",
+	template : "会议",
 	type : "header"
 };
 

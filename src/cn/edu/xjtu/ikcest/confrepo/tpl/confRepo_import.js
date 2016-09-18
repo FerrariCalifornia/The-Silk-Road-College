@@ -58,6 +58,6 @@ confRepoApp.confRepoImportFormWindow = {
     position:"center",
     //body:confRepoApp.form,
     body:confRepoApp.importScrollFromLayout,
-    head:"导入conf_repo"
+    head:"导入会议内容"
     //head:confRepoApp.formWindowHeader
 };
